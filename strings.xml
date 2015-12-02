@@ -43,6 +43,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="trending">Trending</string>
     <string name="messages">Messages</string>
     <string name="topnews">Top News</string>
+    <string name="fbmenu">Facebook Menu</string>
     
     <string name="faved">Favorites</string>
     <string name="friends">Friends</string>
@@ -542,6 +543,10 @@ Copyright notice must remain here if you're using any part of this code.-->
           <string name="buy_all">Buy All</string>
           <string name="buy_all_hint">$38.00</string>
           <string name="buy_all_link" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=FCCU2XNHZ6TDA</string>
+          
+          <string name="any_thing">Donate Whatever</string>
+          <string name="any_thing_hint">Choose your own amount</string>
+          <string name="buy_thing_link" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A3P9ULVKT23XG</string>
           
           <string name="donation_summary">Purchases are 100% optional and help with development. Purchases are processed via PayPal. After you\'ve chosen your purchase amount above, and PayPal has processed your purchase, you will receive a key to unlock features in Folio. This helps to keep Folio free and without the need for ad support.</string>
           <string name="tap_summary">To ensure your notification preference is saved, please tap to apply your changes. This will relaunch Folio.</string>
