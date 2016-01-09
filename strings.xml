@@ -19,7 +19,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="exit">Close</string>
     <!-- Save Image On Long Press -->
     <string name="customize_folio">Customize Folio</string>
-    <string name="customize_folio_hint">Apply themes to Facebook. Choose from 41 different Folio themes*. Switch layouts and more. \n*Themes are unlocked with a purchase key. Purchases are optional.</string>
+    <string name="customize_folio_hint">Apply themes to Facebook. Choose from 41 different Folio themes.</string>
     <string name="tap_to_set">Tap To Apply Changes</string>
    
     <string name="status_updated">Status updated.</string>
@@ -33,8 +33,13 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="license_success">Themes activiated</string>
     <string name="license_failed">Themes disabled</string>
     
-        
+    <string name="show_fab">Display a FAB</string>
+    <string name="show_fab_hint">Display a floating action button to post status updates to Facebook via Folio. When used in the default layout the FAB will not hide. When used with removed Facebook bar and removed toolbar, the FAB will hide. This will disable Facebook themes and Facebook layouts. This is also very buggy at the momment. </string>
+    
     <string name="loading_video">Loading.</string>
+    
+    <string name="hide_sponsored">Hide sponsored posts</string>
+    <string name="hide_sponsored_description">Remove Facebook ads &amp; sponsored posts.</string>
     
     
     
@@ -66,12 +71,41 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="helpfeed">Feedback</string>
     <string name="bugs">Report A Bug</string>
     
-    <!-- Messages -->
-    <string name="inbox">Inbox</string>
-    <string name="requests">Requests</string>
-    <string name="filtered">Filtered</string>
+    <!-- Twitter Drawer -->
+    <string name="discover">Discover</string>
+    <string name="connect">Connect</string>
+    <string name="twitter_search">Search</string>
+    <string name="twitter_home">Home</string>
+    <string name="twitter_me">Me</string>
+    <string name="switch_to_folio">Switch to Folio</string>
     
+    <!-- Add ons -->
+    <string name="addons">Social Add-ons</string>
+    <string name="addons_hint">Twitter requires the Twitter Add-on Key. All other add-ons require the Folio Key. Other add-ons are not yet available to toggle on.</string>
+    <string name="enable_twitter">Enable Twitter</string>
+    <string name="enable_google">Enable Google+</string>
+    <string name="enable_instagram">Enable Instagram</string>
+    <string name="enable_tumblr">Enable Tumblr</string>
     
+    <!-- Removals -->
+    <string name="navigation_pref">Navigation Drawer Items</string>
+    <string name="navigation_pref_hint">Customize the navigation drawer by removing items you don\'t use in Folio. This will only work for the Folio navigation drawer.</string>
+    <string name="recent_nav">Remove Most Recent</string>
+    <string name="top_nav">Remove Top News</string>
+    <string name="facebook_nav">Remove Facebook Menu</string>
+    <string name="trending_nav">Remove Trending</string>
+    <string name="friends_nav">Remove Friends</string>
+    <string name="groups_nav">Remove Groups</string>
+    <string name="pages_nav">Remove Pages</string>
+    <string name="photos_nav">Remove Photos</string>
+    <string name="events_nav">Remove Events</string>
+    <string name="onday_nav">Remove On This Day</string>
+    <string name="saved_nav">Remove Saved</string>
+    
+    <!-- News Feed -->
+    <string name="news_feed_preferences">News Feed Preference</string>
+    <string name="top_always">Top News</string>
+    <string name="top_always_hint">Always load Top News when launching Folio.</string>
     
     
     
@@ -84,6 +118,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="notifications">Notifications</string>
     <string name="notifications_about_hint">Turn notifications on or off for messages, friend request and all other notifications. Switch on vibrate or set your LED.</string>
     <string name="search">Search Facebook</string>
+    
     
    	
 	
@@ -104,6 +139,18 @@ Copyright notice must remain here if you're using any part of this code.-->
       
     
     <string name="cancel">Cancel</string>
+    
+    
+    <!-- Don't Know Why I'm Giving A Choice Here But...-->
+    
+    <string name="site_preference">Choose Facebook Mode (BETA)</string>
+    <string name="site_preference_hint">Current Mode: %s.</string>
+    
+    
+    <string name="default_mode">Facebook Mobile</string>
+    <string name="basic_mode">Facebook Basic</string>
+    <string name="desktop_mode">Desktop Mode</string>        
+  
     
    
     
@@ -155,7 +202,7 @@ Copyright notice must remain here if you're using any part of this code.-->
 
 	The MIT License (MIT)<br><br>
 
-	Copyright (c) 2015 Fython<br><br>
+	Copyright (c) 2015 Fung Jichun<br><br>
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -317,12 +364,17 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="about_header">Open source licenses\nNotices for files</string>
     
      <!-- DO NOT TRANSLATE-->
-    <string name="about_license_text"><![CDATA[Purchase Folio Key? ]]></string>
+    <string name="change_log"><![CDATA[<b>Version: 7.2.4</b><br><br> <b>What\'s New</b> <br><br>-Updated translations <br><br>-Fix for closing the about screen. <br><br>-Improvements to Notifications. <br><br>-Reduced size of app. ]]></string>
     
      <!-- OK To Translate-->
     
-	<string name="about_license_header"><b>Folio Key Required.</b></string>
+	<string name="about_change_log"><b>Folio Change Log</b></string>
    
+	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
+	<string name="allrights">All Rights Reserved.</string>
+	
+	<string name="about_version">Version 7.2.4</string>
+	<string name="about_image">Image Credit: Klyph for Facebook</string>
 	
     
      <!-- Random Strings Part 1 -->
@@ -365,7 +417,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="preference_category7">Customizations</string>
     <string name="preference_about_category">About</string>
     <string name="preference_set_category">All Set?</string>
-    <string name="preference_donate_category">Unlock Features</string>
+    <string name="preference_donate_category">Purchase Folio Key</string>
     <string name="preference_rest_category">Reset Folio To Default Settings</string>
     <string name="preference_category15">Folio Layout Settings</string>
     <string name="preference_facebook_layouts">Facebook Layout Settings</string>
@@ -382,10 +434,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="preferences_rate_hint">Rate Folio on Google Play</string>
     <string name="preferences_rate_description">Rate Folio</string>
     
-    <string name="preferences_pro">Unlock Features</string>
-    <string name="preferences_pro_description">Enter purchase key to unlock features.</string>
-    <string name="preferences_pro_link" translatable="true">http://jnsdesigns.webs.com/fpn.htm</string>
-    
+      
     <string name="preferences_auto">Auto Scroll</string>
     <string name="preferences_auto_hint">Auto scroll to hide Facebook\'s menu?</string>
     
@@ -466,13 +515,13 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="credits_italian_description">Italiano</string>
     
     <string name="credits_spanish">Marco Rubio Asensio</string>
-    <string name="credits_spanish_description">EspaÃ±ol</string>
+    <string name="credits_spanish_description">Español</string>
     
     <string name="credits_german">Clemens Corell</string>
     <string name="credits_german_description">Deutsch</string>
     
-    <string name="credits_brazilian">VinÃ­cius Rubens Pedrinho</string>
-    <string name="credits_brazilian_description">PortuguÃªs de Brasil</string>
+    <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Português de Brasil</string>
     
     <string name="help_trans">Help Translate</string>
     <string name="help_trans_hint">Tap to help translate Folio into your language.</string>
@@ -487,7 +536,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <!-- All About Notifications -->
     
     <string name="preference_category5">General</string>
-    <string name="activate_notifications">General Notifications</string>
+    <string name="activate_notifications">Facebook Notifications</string>
     <string name="activate_messages">Message Notifications</string>
     <string name="activate_friends">Friend Request Notifications</string>    
     <string name="notifications_service_created">Notifications Activated</string>
@@ -496,7 +545,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="all_messages">View Messages</string>
     <string name="all_requests">View Friend Requests</string>
     <string name="notification_sound">Notification Sound</string>
-    <string name="notification_sound_description">Choose a ringtone or silence: \u0020</string>
+    <string name="notification_sound_description">Current: \u0020</string>
+    <string name="message_sound">Message Notification Sound</string>
+    <string name="message_sound_description">Current: \u0020</string>
     <string name="silent">No Sound</string>
     <string name="vibrate">Vibrate</string>
     <string name="led_light">Notification LED</string>
@@ -506,7 +557,6 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
    	
-	<string name="you_have">You have&#160;</string>
 	
 	<string name="friend_request">&#160;new friend request</string>
 	<string name="friend_requests">&#160;new friend requests</string>
@@ -514,22 +564,25 @@ Copyright notice must remain here if you're using any part of this code.-->
 	<string name="new_notification">&#160;new notification</string>
 	<string name="new_notifications">&#160;new notifications</string>
 	
-	<string name="new_message">&#160;new message</string>
-	<string name="new_messages">&#160;new messages</string>
-	
+		
 	
              
     <!-- ALL ABOUT THEMES-->
     
-    <string name="preference_category3">Facebook Themes</string>    
-    <string name="dark_theme">Black Theme</string>    
+    
+    <string name="choose_theme_facebook">Choose Facebook Theme</string>
+    <string name="choose_theme_facebook_hint">Current theme: %s</string>
+    
+    
+   <string name="preference_category3">Facebook Themes</string>
+    
+    <string name="dark_theme">Black Theme</string>
+    
     <string name="dark_theme_description">Turn on black theme.</string>
     
-    <string name="red_theme">Android Studio Theme</string>    
-    <string name="red_theme_description">Turn on Dracula theme.</string>
+    <string name="red_theme">Android Studio Theme</string>
     
-    <string name="white_theme">White Theme</string>    
-    <string name="white_theme_description">Turn on white theme.</string>
+    <string name="red_theme_description">Turn on Dracula theme.</string>
      
     
           
@@ -597,74 +650,52 @@ Copyright notice must remain here if you're using any part of this code.-->
    	
    	<string name="quick_bar_off">QuickBar is now off.</string>
    	
-   	<string name="hide_news_feed">Hide News Feed</string>
-    <string name="hide_news_feed_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</string>
-       
+   	       
     <string name="no_images">Disable images</string>
     <string name="no_images_hint">Reduce data usage be removing images.</string>
-    
-    <string name="trans_nav">Translucent Navigation</string>
-    <string name="trans_nav_hint">Turn navigation bar translucent. Only works on api 19+.</string>
-    
-    <string name="fixed_bar">Fixed Facebook Bar</string>
-    <string name="fixed_bar_hint">Always show Facebook bar.</string>
-    
+      
+        
     <string name="hide_bar">Remove Facebook Bar</string>
-    <string name="hide_bar_hint">Remove Facebook bar and show FAB to post.</string>
     
     
     <string name="choose_theme_folio">Choose App Theme</string>
     <string name="choose_theme_folio_hint">Current theme: %s</string>
-    
-    <string name="choose_theme_fb">Choose Facebook Theme</string>
-    <string name="choose_theme_fb_hint">Current theme: %s</string>
-    
+      
     
     <string name="hidden_bar">Hide Toolbar</string>
-    <string name="hidden_bar_hint">Hide Folio\'s Toolbar. The navigation drawer can still be pulled out from a left swipe.</string>
     
-    <string name="request_pending">Request pending</string>
+   <string name="sync_problem">Awe snap! That\'s an error. Folio couldn\'t get your notifications. Please close and reopen Folio.</string>
+   
+   <string name="you_have_one_message">You have 1 new message</string>
+  <string name="you_have_n_messages">You have %d new messages</string>
     
     
-    
-    <!--  IGNORE THESE -->
-    
-    	<string name="version_name">7.1.9</string>
-        <string name="version_code">97</string>
-    
-    	  
-          
-          <string name="any_thing">Donate Whatever</string>
-          <string name="any_thing_hint">Choose your own amount</string>
-          <string name="buy_thing_link" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A3P9ULVKT23XG</string>
-          
-          <string name="donation_summary">Purchases are 100% optional and help with development. Purchases are processed via PayPal. After you\'ve chosen your purchase amount above, and PayPal has processed your purchase, you will receive a key to unlock features in Folio. This helps to keep Folio free and without the need for ad support.</string>
-          <string name="tap_summary">To ensure your notification preference is saved, please tap to apply your changes. This will relaunch Folio.</string>
          
-          <string name="interval_pref">Badge &amp; Sync Service</string>
-          <string name="interval_pref_description">Notifications &amp; badges will be checked every %s.</string>
+    <string name="interval_pref">Badge &amp; Sync Service</string>
+    <string name="interval_pref_description">Notifications &amp; badges will be checked every %s.</string>
           
                  
         <string-array name="update_interval">
-        <item>5 secs</item> 
-        <item>30 secs</item>    
-        <item>1 minute</item>
+       	<item>5 seconds</item>
         <item>2 minutes</item>
         <item>5 minutes</item>
         <item>30 minutes</item>
-        <item>1 hour</item>        
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>        
     </string-array>
     
     <string-array name="update_interval_values">
         <item>5000</item>
-        <item>30000</item>
-        <item>60000</item>
         <item>120000</item>
         <item>300000</item>
         <item>1800000</item>
-        <item>3600000</item>        
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>        
     </string-array>
 
+    
           
 </resources>
 
