@@ -28,24 +28,16 @@ Copyright notice must remain here if you're using any part of this code.-->
     <!-- FAB LABELS -->
     <string name="update_status">Post Status</string>
     <string name="update_photo">Add Photos</string>
-    <string name="update_share">Share Now</string>
+    <string name="update_share">Share</string>
     
     <string name="license_success">Themes activiated</string>
     <string name="license_failed">Themes disabled</string>
     
-    <string name="show_fab">Display a FAB</string>
-    <string name="show_fab_hint">Display a floating action button to post status updates to Facebook via Folio. When used in the default layout the FAB will not hide. When used with removed Facebook bar and removed toolbar, the FAB will hide. This will disable Facebook themes and Facebook layouts. This is also very buggy at the momment. </string>
+    <string name="show_fab">Display a Floating Action Button.</string>
     
-    <string name="loading_video">Loading.</string>
-    
-    <string name="hide_sponsored">Hide sponsored posts</string>
-    <string name="hide_sponsored_description">Remove Facebook ads &amp; sponsored posts.</string>
+    <string name="loading_video">Loading</string>
     
     
-    
-    
-    
-          
     
     <!-- Folio Drawer -->
     <string name="quickaccess">Quick Access</string>
@@ -78,10 +70,14 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="twitter_home">Home</string>
     <string name="twitter_me">Me</string>
     <string name="switch_to_folio">Switch to Folio</string>
+    <string name="switch_to_twitter">Switch to Twitter</string>
+    <string name="switch_to_gplus">Switch to Google+</string>
+    <string name="switch_to_gram">Switch to Instagram</string>
+    <string name="switch_to_tum">Switch to Tumblr</string>
     
     <!-- Add ons -->
     <string name="addons">Social Add-ons</string>
-    <string name="addons_hint">Twitter requires the Twitter Add-on Key. All other add-ons require the Folio Key. Other add-ons are not yet available to toggle on.</string>
+    <string name="addons_hint">Twitter requires the Twitter Add-on Key. All other add-ons require the Folio Key.</string>
     <string name="enable_twitter">Enable Twitter</string>
     <string name="enable_google">Enable Google+</string>
     <string name="enable_instagram">Enable Instagram</string>
@@ -92,7 +88,6 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="navigation_pref_hint">Customize the navigation drawer by removing items you don\'t use in Folio. This will only work for the Folio navigation drawer.</string>
     <string name="recent_nav">Remove Most Recent</string>
     <string name="top_nav">Remove Top News</string>
-    <string name="facebook_nav">Remove Facebook Menu</string>
     <string name="trending_nav">Remove Trending</string>
     <string name="friends_nav">Remove Friends</string>
     <string name="groups_nav">Remove Groups</string>
@@ -116,7 +111,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="fb_recent">Most Recent</string>
     <string name="refresh">Refresh</string>
     <string name="notifications">Notifications</string>
-    <string name="notifications_about_hint">Turn notifications on or off for messages, friend request and all other notifications. Switch on vibrate or set your LED.</string>
+    <string name="notifications_about_hint">Turn notifications on or off for messages and all other notifications. Switch on vibrate or set your LED.</string>
     <string name="search">Search Facebook</string>
     
     
@@ -124,18 +119,18 @@ Copyright notice must remain here if you're using any part of this code.-->
 	
     <!-- Save Image On Long Press  & Sharing-->
     <string name="savefolio">Save Image</string>
-    <string name="txt_save_image_success">Image downloaded and saved to download folder</string>
+    <string name="txt_save_image_success">Image downloaded and saved to Folio folder.</string>
     <string name="txt_save_image_failed">Could not save image</string>
     <string name="share_action">Share current page</string>
     <string name="share_action_subject">Facebook page</string>
     
     <!-- Save Image On Long Press -->
     
-    <string name="facebook_app_id">691828467548980</string>
+    
     <string name="get_started">Log In With Facebook</string>
     <string name="send_feedback">Folio Feedback</string>
     <string name="ok">OK</string>
-    <string name="applying_changes">Applying Changes</string>
+   
       
     
     <string name="cancel">Cancel</string>
@@ -154,228 +149,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
    
     
-     <!-- DO NOT TRANSLATE-->
-    <string name="about_text"><![CDATA[
-        
-    
-    <b>Tray Preferences</b><br><br>
-    Copyright 2015 grandcentrix GmbH<br><br>
-
-   	Licensed under the Apache License, Version 2.0 (the "License");
-   	you may not use this file except in compliance with the License.<br>
-   	You may obtain a copy of the License at:<br><br>
-
-   	http://www.apache.org/licenses/LICENSE-2.0<br><br>
-
-   	Unless required by applicable law or agreed to in writing, software
-  	distributed under the License is distributed on an "AS IS" BASIS,
-   	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
-   	See the License for the specific language governing permissions and
-   	limitations under the License.<br><br><br>
-   	
-   	
-   	<b>Material Preferences</b><br><br>
-   	
-   	The MIT License (MIT)<br><br>
-
-	Copyright (c) 2015 Jens Driller<br><br>
-
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:<br><br>
-
-	The above copyright notice and this permission notice shall be included in all
-	copies or substantial portions of the Software.<br><br>
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-	SOFTWARE.<br><br><br>
-
-	<b>Material Preference Compat</b><br><br>
-
-	The MIT License (MIT)<br><br>
-
-	Copyright (c) 2015 Fung Jichun<br><br>
-
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:<br><br>
-
-	The above copyright notice and this permission notice shall be included in all
-	copies or substantial portions of the Software.<br><br>
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-	SOFTWARE.<br><br>
-
-
-	<b>Facebook SDK</b><br><br>
-
-	Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
-	<br><br>
-	You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
-	copy, modify, and distribute this software in source code or binary form for use
-	in connection with the web services and APIs provided by Facebook.
-	<br><br>
-	As with any software that integrates with the Facebook platform, your use of
-	this software is subject to the Facebook Developer Principles and Policies
-	[http://developers.facebook.com/policy/]. This copyright notice shall be
-	included in all copies or substantial portions of the software.
-	<br><br>
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-	FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-	COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-	IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-	<br><br>
-
-	<b>Picasso</b><br><br>
-	Copyright 2013 Square, Inc.<br><br>
-
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at<br><br>
-
-	http://www.apache.org/licenses/LICENSE-2.0<br><br>
-
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.<br><br>
-	
-	
-	<b>Tinfoil for Facebook</b><br><br>
-	Copyright 2013 Daniel Velzaco<br><br>
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at<br><br>
-
-    http://www.apache.org/licenses/LICENSE-2.0<br><br>
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.<br><br>
-    
-    	
-	<b>Clans Floating Action Button</b><br><br>
-	Copyright 2015 Dmytro Tarianyk
-	<br><br>
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	<br><br>
-   	http://www.apache.org/licenses/LICENSE-2.0
-	<br><br>
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
-	<br><br>
-	
-	
-	<b>ActionItemBadge</b><br><br>
-	Copyright 2015 Mike Penz
-	<br><br>
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	<br><br>
-   	http://www.apache.org/licenses/LICENSE-2.0
-	<br><br>
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
-	<br><br>
-	
-	
-	<b>Android-Iconics</b><br><br>
-	Copyright 2015 Mike Penz
-	<br><br>
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	<br><br>
-   	http://www.apache.org/licenses/LICENSE-2.0
-	<br><br>
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
-	<br><br>
-	
-	
-	<b>AdvancedWebView</b><br><br>
-	Copyright 2015 delight.im <info@delight.im>
-	<br><br>
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	<br><br>
-   	http://www.apache.org/licenses/LICENSE-2.0
-	<br><br>
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
-	<br><br>
-	
-	
-	<b>AppRater</b><br><br>
-	Copyright 2013 Andrew Jackson
-	<br><br>
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	<br><br>
-   	http://www.apache.org/licenses/LICENSE-2.0
-	<br><br>
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
-	<br><br>
-    ]]></string>
-    
-    <string name="about_header">Open source licenses\nNotices for files</string>
-    
-     <!-- DO NOT TRANSLATE-->
-    <string name="change_log"><![CDATA[<b>Version: 7.2.4</b><br><br> <b>What\'s New</b> <br><br>-Updated translations <br><br>-Fix for closing the about screen. <br><br>-Improvements to Notifications. <br><br>-Reduced size of app. ]]></string>
-    
-     <!-- OK To Translate-->
-    
-	<string name="about_change_log"><b>Folio Change Log</b></string>
-   
-	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
-	<string name="allrights">All Rights Reserved.</string>
-	
-	<string name="about_version">Version 7.2.4</string>
-	<string name="about_image">Image Credit: Klyph for Facebook</string>
-	
+     
     
      <!-- Random Strings Part 1 -->
      
@@ -388,16 +162,11 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="author">Created by Jorell Rutledge</string>    
     <string name="title_activity_settings">Settings</string>        
     <string name="title_activity_about">About Folio</string>
-    <string name="title_activity_about_hint">Learn about the different libraries used in Folio. Get its source on GitHub, join us on Facebook and more.</string>
     
     <string name="email_author">Send Feedback</string>    
     <string name="choose_email_client">Choose e-mail client</string>    
     <string name="no_network">You\'re not online.</string> <!-- You MUST include the \ in your translation. For example... ***You'\re**** is spelled like that -->    
-       
-    <string name="share_link">Share this item</string>    
-    <string name="long_clicks">Long Clicks</string>    
-    <string name="long_clicks_description">Long click images to save them.</string>
-    
+  
             
     <!-- Random Strings Part 2 -->
     <string name="preference_category4">Folio Themes</string>
@@ -405,14 +174,10 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
     <string name="donate_jorell">Support Development &amp; Unlock Features</string>
-    <string name="donate_jorell_description">If you like our work please consider purchasing an item by tapping here to support development. You will receive an unlock key to enable more features.</string>
-    <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
-    <string name="donate_jorell_about">About Purchases</string>
    	
    	
     
      <!-- Bottom Section of Credits-->
-    <string name="hardware_acceleration">Hardware Acceleration</string> 
     <string name="credits_settings">Credits</string>
     <string name="preference_category7">Customizations</string>
     <string name="preference_about_category">About</string>
@@ -421,18 +186,12 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="preference_rest_category">Reset Folio To Default Settings</string>
     <string name="preference_category15">Folio Layout Settings</string>
     <string name="preference_facebook_layouts">Facebook Layout Settings</string>
-    <string name="credits_licenses">Tap here to read more about the licences used in Folio.</string>
     <string name="credits_licenses_description">Open source software licenses</string>
     <string name="clear_cache">Clear Data</string>    
     <string name="clear_cache_description">Clear Folio\'s data. This will also log you out.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
         
     <string name="preferences_feedback">Send Feedback</string>
-    <string name="preferences_feedback_description">Have a question? Need help? Tap here to send us an email.</string>
-    <string name="preferences_feedback_link" translatable="true">mailto:creativetrendzappsllc@gmail.com?Subject=Folio</string>
-    
-    <string name="preferences_rate">Help Others By Rating Folio</string>
-    <string name="preferences_rate_hint">Rate Folio on Google Play</string>
-    <string name="preferences_rate_description">Rate Folio</string>
+   
     
       
     <string name="preferences_auto">Auto Scroll</string>
@@ -454,11 +213,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="credits_nam_description">For help with cover photos. Check out his Facebook client.</string>
     <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrapper&amp;hl=en</string>
     
-    <string name="credits_dan">Daniel Velazco/nJames Vento</string>
-    <string name="credits_dan_description">For use of the full screen video playback webview code found in Tinfoil. Checkout Tinfoil for Facebook.</string>
-    <string name="credits_dan_link" translatable="true">https://play.google.com/store/apps/details?id=com.danvelazco.fbwrapper&amp;hl=en</string>
     
-        
     <string name="credits_beta">Facebook Group</string>
     <string name="credits_beta_description">Join Creative Trends Beta on Facebook.</string>
     <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
@@ -491,20 +246,6 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="preference_category10">Open Source Software Used</string>
     <string name="preference_category8">Open Source Licenses</string> 
      
-    <string name="credits_tray">Tray Preferences</string>
-    <string name="credits_tray_description">Tap here to fork the project.</string>
-    <string name="credits_tray_link" translatable="true">https://github.com/grandcentrix/tray</string>
-    
-    
-    <string name="credits_material">Folio for Facebook</string>
-    <string name="credits_material_description">Tap here to fork the project.</string>
-    <string name="credits_material_link" translatable="true">https://github.com/creativetrendsapps/folioforfacebook</string>
-    
-        
-    <string name="credits_preferences">Material Preference Compat</string>
-    <string name="credits_preferences_description">Tap here to fork the project.</string>
-    <string name="credits_preferences_link" translatable="true">https://github.com/fython/MaterialPreferenceCompat</string>
-    
     
     
     <!-- All About Translations  -->
@@ -537,13 +278,10 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string name="preference_category5">General</string>
     <string name="activate_notifications">Facebook Notifications</string>
-    <string name="activate_messages">Message Notifications</string>
-    <string name="activate_friends">Friend Request Notifications</string>    
+    <string name="activate_messages">Message Notifications</string>  
     <string name="notifications_service_created">Notifications Activated</string>
     <string name="notifications_settings">Notifications</string>
     <string name="all_notifications">View Notifications</string>
-    <string name="all_messages">View Messages</string>
-    <string name="all_requests">View Friend Requests</string>
     <string name="notification_sound">Notification Sound</string>
     <string name="notification_sound_description">Current: \u0020</string>
     <string name="message_sound">Message Notification Sound</string>
@@ -555,17 +293,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="notifications_everywhere">Always Be Notified</string>
     <string name="notifications_everywhere_description">Even when you\'re using Folio.</string>
     
-    
-   	
-	
-	<string name="friend_request">&#160;new friend request</string>
-	<string name="friend_requests">&#160;new friend requests</string>
-	
-	<string name="new_notification">&#160;new notification</string>
-	<string name="new_notifications">&#160;new notifications</string>
-	
-		
-	
+   
              
     <!-- ALL ABOUT THEMES-->
     
@@ -634,21 +362,13 @@ Copyright notice must remain here if you're using any part of this code.-->
         
     </string-array>
     
+   
+    <string name="quick_bar">QuickBar</string>
+    <string name="quick_bar_hint">Show Folio QuickBar?</string>
    	
-   	<string-array name="pref_theme_fb_entries">
-    <item>Facebook Theme</item>              
-   	<item>Black Theme</item>
-   	<item>Dracula Theme</item>   
-        
-    </string-array>
-
+    <string name="quick_bar_on">QuickBar is now on.</string>
    	
-   	<string name="quick_bar">QuickBar</string>
-   	<string name="quick_bar_hint">Show Folio QuickBar?</string>
-   	
-   	<string name="quick_bar_on">QuickBar is now on.</string>
-   	
-   	<string name="quick_bar_off">QuickBar is now off.</string>
+    <string name="quick_bar_off">QuickBar is now off.</string>
    	
    	       
     <string name="no_images">Disable images</string>
@@ -664,11 +384,13 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string name="hidden_bar">Hide Toolbar</string>
     
+    <!-- FROM FACESLIM-->
+    
    <string name="sync_problem">Awe snap! That\'s an error. Folio couldn\'t get your notifications. Please close and reopen Folio.</string>
    
-   <string name="you_have_one_message">You have 1 new message</string>
+  <string name="you_have_one_message">You have 1 new message</string>
   <string name="you_have_n_messages">You have %d new messages</string>
-    
+ <!-- END FROM FACESLIM-->
     
          
     <string name="interval_pref">Badge &amp; Sync Service</string>
