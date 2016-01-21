@@ -29,7 +29,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <!-- FAB LABELS -->
     <string name="update_status">Post Status</string>
     <string name="update_photo">Add Photos</string>
-    <string name="update_share">Share Now</string>
+    <string name="update_share">Share</string>
     
     <string name="license_success">Themes activiated</string>
     <string name="license_failed">Themes disabled</string>
@@ -86,7 +86,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- Add ons -->
     <string name="addons">Social Add-ons</string>
-    <string name="addons_hint">Twitter requires the Twitter Add-on Key. All other add-ons require the Folio Key. Other add-ons are not yet available to toggle on.</string>
+    <string name="addons_hint">Twitter requires the Twitter Add-on Key. All other add-ons require the Folio Key.</string>
     <string name="enable_twitter">Enable Twitter</string>
     <string name="enable_google">Enable Google+</string>
     <string name="enable_instagram">Enable Instagram</string>
@@ -120,12 +120,14 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="medium_font">Medium Font Size</string>
     <string name="large_font">Large Font Size</string>
     <string name="xl_font">Xtra Large Font Size</string>
+    <string name="xxl_font">Xtra Xtra Large Font Size</string>
     
     <string-array name="font_choice">
        	<item>Default Font</item>
         <item>Medium Font</item>
         <item>Large Font</item>
         <item>Xtra Large Font</item>
+        <item>Xtra Xtra Large Font</item>
                
     </string-array>
     
@@ -154,7 +156,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- Save Image On Long Press -->
     
-    <string name="facebook_app_id">691828467548980</string>
+    
     <string name="get_started">Log In With Facebook</string>
     <string name="send_feedback">Folio Feedback</string>
     <string name="ok">OK</string>
@@ -283,21 +285,6 @@ Copyright notice must remain here if you're using any part of this code.-->
 	limitations under the License.<br><br>
 	
 	
-	<b>Tinfoil for Facebook</b><br><br>
-	Copyright 2013 Daniel Velzaco<br><br>
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at<br><br>
-
-    http://www.apache.org/licenses/LICENSE-2.0<br><br>
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.<br><br>
-    
     	
 	<b>Clans Floating Action Button</b><br><br>
 	Copyright 2015 Dmytro Tarianyk
@@ -502,11 +489,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="credits_nam_description">For help with cover photos. Check out his Facebook client.</string>
     <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrapper&amp;hl=en</string>
     
-    <string name="credits_dan">Daniel Velazco/nJames Vento</string>
-    <string name="credits_dan_description">For use of the full screen video playback webview code found in Tinfoil. Checkout Tinfoil for Facebook.</string>
-    <string name="credits_dan_link" translatable="true">https://play.google.com/store/apps/details?id=com.danvelazco.fbwrapper&amp;hl=en</string>
     
-        
     <string name="credits_beta">Facebook Group</string>
     <string name="credits_beta_description">Join Creative Trends Beta on Facebook.</string>
     <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
@@ -571,6 +554,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="credits_brazilian">Vinícius Rubens Pedrinho</string>
     <string name="credits_brazilian_description">Português de Brasil</string>
     
+    <string name="credits_trukish">Vinícius Rubens Pedrinho</string>
+    <string name="credits_trukish_description">Português de Brasil</string>
+    
     <string name="help_trans">Help Translate</string>
     <string name="help_trans_hint">Tap to help translate Folio into your language.</string>
    
@@ -589,7 +575,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="activate_friends">Friend Request Notifications</string>    
     <string name="notifications_service_created">Notifications Activated</string>
     <string name="notifications_settings">Notifications</string>
-    <string name="all_notifications">View Notifications</string>
+    <string name="all_notifications">View All Notifications</string>
     <string name="all_messages">View Messages</string>
     <string name="all_requests">View Friend Requests</string>
     <string name="notification_sound">Notification Sound</string>
