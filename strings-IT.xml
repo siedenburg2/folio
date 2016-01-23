@@ -1,0 +1,766 @@
+<resources>
+    
+<!--Copyright (C) 2014-2015 Jorell Rutledge/Creative Trends.
+This file is originally apart of Folio for Facebook.
+Copyright notice must remain here if you're using any part of this code.-->
+
+	<!-- Basic Strings -->
+    <string name="app_name">Folio</string>
+    <!-- Replaces Facebook WebView Title -->
+    <string name="app_name_toolbar">Folio</string>
+    <string name="app_name_about">Folio for Facebook</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="end">Log out</string>
+    <!-- Close Drawer -->
+    <string name="closeDrawer">Navigation View</string>
+    <!-- Open Drawer -->
+    <string name="openDrawer">Navigation View Closed</string>
+    
+    <!-- Close The App -->
+    <string name="exit">Esci</string>
+    <!-- Save Image On Long Press -->
+    <string name="customize_folio">Personalizza Folio</string>
+    <string name="customize_folio_hint">Modifica l\'aspetto di Facebook. Il tema e il layout di Folio.</string>
+    <string name="tap_to_set">Applica Modifiche</string>
+   
+    <string name="status_updated">Stato pubblicato.</string>
+    
+    
+    <!-- FAB LABELS -->
+    <string name="update_status">Scrivi uno stato</string>
+    <string name="update_photo">Aggiungi foto</string>
+    <string name="update_share">Condividi</string>
+    
+    <string name="license_success">Temi attivati</string>
+    <string name="license_failed">Temi disabilitati</string>
+    
+    <string name="show_fab">Mostra FAB</string>
+    <string name="show_fab_hint">Mostra un tasto che permette di pubblicare uno stato tramite Folio. Quando usato nel layout di default il tasto non si nasconde. Si nasconde invece quando sono selezionate "Rimuovi la Barra di Facebook" o "Nascondi Toolbar". Questo tasto oltre ad essere molto buggato disabilita tutte le modifiche al layout e ai temi.</string>
+    
+    <string name="loading_video">Caricamento.</string>
+    
+    <string name="hide_sponsored">Nascondi post sponsorizzati</string>
+    <string name="hide_sponsored_description">Rimuove i post sponsorizzati da Facebook.</string>
+    
+    
+    
+    
+    
+          
+    
+    <!-- Folio Drawer -->
+    <string name="quickaccess">Accesso rapido</string>
+    <string name="newsfeed">Notizie Recenti</string>
+    <string name="trending">Popolari</string>
+    <string name="messages">Messaggi</string>
+    <string name="topnews">Notizie Principali</string>
+    <string name="fbmenu">Menu Facebook</string>
+    
+    <string name="faved">Preferiti</string>
+    <string name="friends">Amici</string>
+    <string name="groups">Gruppi</string>
+    <string name="pages">Pagine</string>
+    <string name="photos">Foto</string>
+    
+    <string name="reminders">Reminders</string>
+    <string name="events">Eventi</string>
+    <string name="onthisday">Accadde Oggi</string>
+    <string name="saved">Salvati</string>
+    
+    <string name="prefs">Preferenze</string>
+    <string name="settings">Impostazioni</string>
+    <string name="helpfeed">Feedback</string>
+    <string name="bugs">Segnala un Bug</string>
+    
+    <!-- Twitter Drawer -->
+    <string name="discover">Scopri</string>
+    <string name="connect">Connetti</string>
+    <string name="twitter_search">Cerca</string>
+    <string name="twitter_home">Home</string>
+    <string name="twitter_me">Io</string>
+    <string name="switch_to_folio">Vai su Folio</string>
+    <string name="switch_to_gplus">Switch to Google+</string>
+    <string name="switch_to_gram">Switch to Instagram</string>
+    <string name="switch_to_tum">Switch to Tumblr</string>
+    
+    <!-- Add ons -->
+    <string name="addons">Social Add-ons</string>
+    <string name="addons_hint">Twitter richiede la Twitter Add-on Key. Tutte le altre richiedono la Folio Key.</string>
+    <string name="enable_twitter">Attiva Twitter</string>
+    <string name="enable_google">Attiva Google+</string>
+    <string name="enable_instagram">Attiva Instagram</string>
+    <string name="enable_tumblr">Attiva Tumblr</string>
+    
+    <!-- Removals -->
+    <string name="navigation_pref">Collegamenti Drawer Laterale</string>
+    <string name="navigation_pref_hint">Scegli cosa visualizzare nel Drawer Laterale.</string>
+    <string name="recent_nav">Nascondi Notizie Recenti</string>
+    <string name="top_nav">Nascondi Notizie Principali</string>
+    <string name="facebook_nav">Nascondi Menu Facebook</string>
+    <string name="trending_nav">Nascondi Popolari</string>
+    <string name="friends_nav">Nascondi Amici</string>
+    <string name="groups_nav">Nascondi Gruppi</string>
+    <string name="pages_nav">Nascondi Pagine</string>
+    <string name="photos_nav">Nascondi Foto</string>
+    <string name="events_nav">Nascondi Eventi</string>
+    <string name="onday_nav">Nascondi Accadde Oggi</string>
+    <string name="saved_nav">Nascondi Salvati</string>
+    
+    <!-- News Feed -->
+    <string name="news_feed_preferences">Preferenze News Feed</string>
+    <string name="top_always">Notizie Principali</string>
+    <string name="top_always_hint">Carica le Notizie Principali invece delle Notizie Recenti all\'apertura di Folio.</string>
+    
+    <!-- Fonts -->
+    <string name="font_preference">Preferenze Font Facebook</string>
+    <string name="larger_font_hint">Aumenta la leggibilità  aumentando la dimensione del font su Facebook. Disabilità  le altre dimensioni per far funzionare la preferità .</string>
+    <string name="font_set">Tocca per applicare le modifiche a Folio.</string>
+    <string name="default_font">Default</string>
+    <string name="medium_font">Medio</string>
+    <string name="large_font">Grande</string>
+    <string name="xl_font">XL</string>
+    <string name="xxl_font">XXL</string>
+    
+    <string-array name="font_choice">
+       	<item>Default</item>
+       	<item>Piccolo</item>
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>XL</item>
+        <item>XXL</item>
+               
+    </string-array>
+    
+    
+    
+    
+    <!-- Overflow Menu Folio -->
+    <string name="top">Sali in cima</string>
+    <string name="fb_settings">Impostazioni Facebook</string>
+    <string name="fb_chat">Amici Online</string>
+    <string name="fb_recent">Recenti</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="notifications">Notifiche</string>
+    <string name="notifications_about_hint">Scegli che notifiche ricevere. Attiva la vibrazione oppure imposta il tuo LED.</string>
+    <string name="search">Cerca</string>
+    
+    
+   	
+	
+    <!-- Save Image On Long Press  & Sharing-->
+    <string name="savefolio">Salva Immagine</string>
+    <string name="txt_save_image_success">Immagine scaricata nella cartella di download</string>
+    <string name="txt_save_image_failed">Non posso salvare l\'immagine</string>
+    <string name="share_action">Condividi la pagina corrente</string>
+    <string name="share_action_subject">Pagina Facebook</string>
+    
+    <!-- Save Image On Long Press -->
+    
+    
+    <string name="get_started">Accedi con Facebook</string>
+    <string name="send_feedback">Folio Feedback</string>
+    <string name="ok">OK</string>
+    <string name="applying_changes">Applica Modifiche</string>
+      
+    
+    <string name="cancel">Annulla</string>
+    
+    
+    <!-- Don't Know Why I'm Giving A Choice Here But...-->
+    
+    <string name="site_preference">Scegli la Modalità  di Facebook (BETA)</string>
+    <string name="site_preference_hint">Modalità  attuale: %s.</string>
+    
+    
+    <string name="default_mode">Facebook Mobile</string>
+    <string name="basic_mode">Facebook Base</string>
+    <string name="desktop_mode">Desktop</string>       
+  
+    
+   
+    
+     <!-- DO NOT TRANSLATE-->
+    <string name="about_text"><![CDATA[
+        
+    
+    <b>Tray Preferences</b><br><br>
+    Copyright 2015 grandcentrix GmbH<br><br>
+
+   	Licensed under the Apache License, Version 2.0 (the "License");
+   	you may not use this file except in compliance with the License.<br>
+   	You may obtain a copy of the License at:<br><br>
+
+   	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+
+   	Unless required by applicable law or agreed to in writing, software
+  	distributed under the License is distributed on an "AS IS" BASIS,
+   	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+   	See the License for the specific language governing permissions and
+   	limitations under the License.<br><br><br>
+   	
+   	
+   	<b>Material Preferences</b><br><br>
+   	
+   	The MIT License (MIT)<br><br>
+
+	Copyright (c) 2015 Jens Driller<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br><br>
+
+	<b>Material Preference Compat</b><br><br>
+
+	The MIT License (MIT)<br><br>
+
+	Copyright (c) 2015 Fung Jichun<br><br>
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:<br><br>
+
+	The above copyright notice and this permission notice shall be included in all
+	copies or substantial portions of the Software.<br><br>
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.<br><br>
+
+
+	<b>Facebook SDK</b><br><br>
+
+	Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+	<br><br>
+	You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+	copy, modify, and distribute this software in source code or binary form for use
+	in connection with the web services and APIs provided by Facebook.
+	<br><br>
+	As with any software that integrates with the Facebook platform, your use of
+	this software is subject to the Facebook Developer Principles and Policies
+	[http://developers.facebook.com/policy/]. This copyright notice shall be
+	included in all copies or substantial portions of the software.
+	<br><br>
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+	FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+	COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+	IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	<br><br>
+
+	<b>Picasso</b><br><br>
+	Copyright 2013 Square, Inc.<br><br>
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at<br><br>
+
+	http://www.apache.org/licenses/LICENSE-2.0<br><br>
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.<br><br>
+	
+	
+    	
+	<b>Clans Floating Action Button</b><br><br>
+	Copyright 2015 Dmytro Tarianyk
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>ActionItemBadge</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>Android-Iconics</b><br><br>
+	Copyright 2015 Mike Penz
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>AdvancedWebView</b><br><br>
+	Copyright 2015 delight.im <info@delight.im>
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+	
+	
+	<b>AppRater</b><br><br>
+	Copyright 2013 Andrew Jackson
+	<br><br>
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	<br><br>
+   	http://www.apache.org/licenses/LICENSE-2.0
+	<br><br>
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	<br><br>
+    ]]></string>
+    
+    <string name="about_header">Open source licenses\nNotices for files</string>
+    
+     <!-- DO NOT TRANSLATE-->
+    <string name="change_log"><![CDATA[
+	<b>Version 7.3.1.1</b>
+	
+	<br><br>
+
+	<b>What\'s New</b>
+	<br><br>
+	-Settings menu adjustments to help find preferences faster.<br><br>
+	-New font size selector. Easily change your font size. Tap to apply changes.<br><br>
+	-New Facebook themes selector. Easily change Facebook themes. Tap to apply changes.<br><br>
+	-Try Folio theme\'s for FREE for a limited time.<br><br>
+	-Turkish language added.<br><br>
+	-Sending bugs or feedback has now moved to the settings overflow menu.<br><br>
+	-Better hiding of the FAB (Floating Action Button) on devices with physical buttons.<br><br>
+	-Ninja code.<br><br>
+
+
+		]]></string>
+    
+     <!-- OK To Translate-->
+    
+	<string name="about_change_log"><b>Folio Change Log</b></string>
+   
+	<string name="copyright">\u00A9 2016 Creative Trends Apps LLC.</string>
+	<string name="allrights">Tutti i diritti sono riservati.</string>    
+	
+	<string name="about_image">Crediti immagine: Klyph for Facebook</string>
+	
+    
+     <!-- Random Strings Part 1 -->
+     
+     <string name="fb_offline">Offline</string>    
+    <string name="hello"></string>    
+    <string name="cancelled">Annullato</string>    
+    <string name="permission_not_granted">Non ho i permessi per farlo.</string>
+    <string name="image_chooser">Scegli immagine</string>
+    <string name="loading_link">Apri con Folio</string>   
+    <string name="author">Creata da Jorell Rutledge</string>    
+    <string name="title_activity_settings">Impostazioni</string>        
+    <string name="title_activity_about">Riguardo Folio</string>
+    <string name="title_activity_about_hint">Scopri di piú riguardo alle diverse librerie usate in Folio. Ottieni il codice sorgente da GitHub, unisciti a noi su Facebook e altro.</string>
+    
+    <string name="email_author">Invia Feedback</string>    
+    <string name="choose_email_client">Scegli client e-mail</string>  
+    <string name="no_network">Non sei Online.</string> <!-- You MUST include the \ in your translation. For example... ***You'\re**** is spelled like that -->    
+       
+    <string name="share_link">Condividi</string>    
+    <string name="long_clicks">Tieni premuto</string>    
+    <string name="long_clicks_description">Tieni premuto per salvare l\'immagine.</string>
+    
+            
+    <!-- Random Strings Part 2 -->
+    <string name="preference_category4">Temi</string>
+   
+    
+    
+    <string name="donate_jorell">Supporta lo Sviluppo</string>
+    <string name="donate_jorell_description">Se ti piace il nostro lavoro,considera una donazione.</string>
+    <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
+    <string name="donate_jorell_about">Offrimi un caffà</string>
+   	
+   	
+    
+     <!-- Bottom Section of Credits-->
+    <string name="hardware_acceleration">Accelerazione Hardware</string> 
+    <string name="credits_settings">Crediti</string>
+    <string name="preference_category7">Personalizzazioni</string>
+    <string name="preference_about_category">Info</string>
+    <string name="preference_set_category">Tutto fatto?</string>
+    <string name="preference_donate_category">Sblocca Funzionalità </string>
+    <string name="preference_rest_category">Riporta Folio alle impostazioni iniziali</string>
+    <string name="preference_category15">Opzioni Layout</string>
+    <string name="preference_facebook_layouts">Opzioni Layout Facebook</string>
+    
+    <string name="fixed_nav">Fissa barra di Facebook</string>
+    <string name="fixed_nav_description">Mostra la barra di Facebook sempre in cima.</string>
+    
+    <string name="credits_licenses">Tocca qui per saperne di piú sulle licenze usate in Folio.</string>
+    <string name="credits_licenses_description">Open source software licenses</string>
+    <string name="clear_cache">Pulisci Dati</string>   
+    
+    <string name="clear_cache_title">Sei sicuro?</string> 
+    <string name="clear_cache_message">Premi OK per pulire i dati di Folio. Farai anche il logout da Facebook.</string> 
+      
+    <string name="clear_cache_description">Questo ti disconetterà  da Facebook.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
+        
+    <string name="preferences_feedback">Invia Feedback</string>
+    <string name="preferences_feedback_description">Hai una domanda? Serve aiuto? Tocca qui per inviarci una mail.</string>
+    <string name="preferences_feedback_link" translatable="true">mailto:creativetrendzappsllc@gmail.com?Subject=Folio</string>
+    
+    <string name="preferences_rate">Aiutaci valutando Folio</string>
+    <string name="preferences_rate_hint">Valuta Folio su Google Play</string>
+    <string name="preferences_rate_description">Valuta Folio</string>
+    
+      
+    <string name="preferences_auto">Scroll Automatico</string>
+    <string name="preferences_auto_hint">Attiva per nascondere la barra di Facebook</string>
+    
+    
+    
+    
+    
+    <!-- All About Credits -->
+        
+    <string name="preference_category6">Ringraziamenti</string>
+    
+    <string name="credits_bejan">Bejan Kanga</string>
+    <string name="credits_bejan_description">Per le icone di Folio e Folio Messenger. Grazie inoltre per l\'aiuto nello sviluppo di una parte dell\'app originale. Tocca qui per visitare il suo sito.</string>
+    <string name="credits_bejan_link" translatable="true">http://bejank.com</string>
+    
+    <string name="credits_nam">Nam Nghiem</string>
+    <string name="credits_nam_description">Per l\'aiuto dato nell\'immagine cover di Facebook. Guarda il suo client di Facebook.</string>
+    <string name="credits_nam_link" translatable="true">https://play.google.com/store/apps/details?id=com.nam.fbwrapper&amp;hl=en</string>
+    
+    
+    <string name="credits_beta">Gruppo Facebook</string>
+    <string name="credits_beta_description">Per il testing e l\'aiuto dato per rendere Folio migliore ad ogni aggiornamento. Tocca qui per diventare beta tester.</string>
+    <string name="credits_beta_link" translatable="true">https://www.facebook.com/groups/creativtrendz/</string>
+    
+    
+    <string name="credits_google_plus">Comunity Google+</string>
+    <string name="credits_google_plus_description">Unisciti alla comunity di Folio for Facebook su Google+.</string>
+    <string name="credits_google_plus_link" translatable="true">https://plus.google.com/communities/116238843585710616103</string>
+    
+    
+    
+    
+    <string name="credits_janae">Janae</string>
+    <string name="credits_janae_description">Per la condivisione di un interesse ed essere paziente mentre suo padre lavora.</string>
+    
+    
+    <string name="credits_tykeshia">Tykeshia</string>
+    <string name="credits_tykeshia_description">Per il supporto e gli incoraggiamenti degli ultimi anni. Grazie per il portatile.</string>
+    
+    
+    <string name="credits_facebook">Facebook Inc.</string>    
+    <string name="credits_facebook_description">Per le loro api. E per il sito mobile usato in Folio. </string>
+    <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
+    
+    <string name="credits_google">Google Inc.</string>
+    <string name="credits_google_description">Per AppCompat v7. Anche per le loro Icone in Material design. Tocca qui per altre informazioni.</string>
+    <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
+    
+    
+    <string name="preference_category10">Open Source Software Used</string>
+    <string name="preference_category8">Open Source Licenses</string> 
+     
+    <string name="credits_tray">Tray Preferences</string>
+    <string name="credits_tray_description">Tocca qui per conoscere il progetto.</string>
+    <string name="credits_tray_link" translatable="true">https://github.com/grandcentrix/tray</string>
+    
+    
+    <string name="credits_material">Folio for Facebook</string>
+    <string name="credits_material_description">Tocca qui per conoscere il progetto.</string>
+    <string name="credits_material_link" translatable="true">https://github.com/creativetrendsapps/folioforfacebook</string>
+    
+        
+    <string name="credits_preferences">Material Preference Compat</string>
+    <string name="credits_preferences_description">Tocca qui per conoscere il progetto.</string>
+    <string name="credits_preferences_link" translatable="true">https://github.com/fython/MaterialPreferenceCompat</string>
+    
+    
+    
+    <!-- All About Translations  -->
+    
+    <string name="preference_category12">Traduzioni</string> 
+           
+    <string name="credits_italian">Fabio Catinella</string>
+    <string name="credits_italian_description">Italiano</string>
+    
+    <string name="credits_spanish">Marco Rubio Asensio</string>
+    <string name="credits_spanish_description">Spagnolo</string>
+    
+    <string name="credits_german">Clemens Corell</string>
+    <string name="credits_german_description">Tedesco</string>
+    
+    <string name="credits_brazilian">Vinà­cius Rubens Pedrinho</string>
+    <string name="credits_brazilian_description">Portoghese</string>
+    
+    <string name="credits_trukish">Anonymous</string>
+    <string name="credits_trukish_description">Turco</string>
+    
+    <string name="help_trans">Aiutaci a Tradurre</string>
+    <string name="help_trans_hint">Tocca qui per aiutarci a tradurre Folio nella tua lingua.</string>
+   
+    
+        
+    
+    
+    
+    
+    
+    <!-- All About Notifications -->
+    
+    <string name="preference_category5">Generali</string>
+    <string name="activate_notifications">Notifiche Generali</string>
+    <string name="activate_messages">Messaggi</string>
+    <string name="activate_friends">Richieste di Amicizia</string>    
+    <string name="notifications_service_created">Notifiche attivate</string>
+    <string name="notifications_settings">Notifiche</string>
+    <string name="all_notifications">Guarda Notifiche</string>
+    <string name="all_messages">Guarda i Messaggi</string>
+    <string name="all_requests">Guarda le Richieste di Amicizia</string>
+    <string name="notification_sound">Suono Notifica</string>
+    <string name="notification_sound_description">Current: \u0020</string>
+    <string name="message_sound">Suono Messaggio</string>
+    <string name="message_sound_description">Current: \u0020</string>
+    <string name="silent">Silenzioso</string>
+    <string name="vibrate">Vibrazione</string>
+    <string name="led_light">LED di notifica</string>
+    <string name="notifications_extra">Extra</string>
+    <string name="notifications_everywhere">Sii sempre notificato</string>
+    <string name="notifications_everywhere_description">Anche quando usi Folio.</string>
+    <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
+    
+   	
+	
+	<string name="friend_request">&#160;nuova richiesta di amicizia</string>
+    <string name="friend_requests">&#160;nuove richieste di amicizia</string>
+    
+	<string name="new_notification">&#160;nuova notifica</string>
+    <string name="new_notifications">&#160;nuove notifiche</string>
+	
+		
+	
+             
+    <!-- ALL ABOUT THEMES-->
+    
+    
+    <string name="choose_theme_facebook">Scegli tema Facebook</string>
+    <string name="choose_theme_facebook_hint">Tema Attuale: %s</string>
+    
+    
+   <string name="preference_category3">Temi Facebook</string>
+    
+    <string name="dark_theme">Tema scuro</string> 
+    
+    <string name="dark_theme_description">Attiva il tema scuro.</string>
+    
+    <string name="red_theme">Tema Android Studio</string>
+    
+    <string name="red_theme_description">Attiva il tema Dracula.</string>
+     
+    
+          
+          
+   	<string-array name="pref_theme_entries">
+        <item>Folio Theme</item>
+        <item>Folio Theme Dark Drawer</item>
+        <item>Pink Theme</item>
+        <item>Pink Theme Dark Drawer</item>
+        <item>Purple Theme</item>
+        <item>Purple Theme Dark Drawer</item>
+        <item>Deep Purple Theme</item>
+        <item>Deep Purple Theme Dark Drawer</item>
+        <item>Dark Theme</item>
+        <item>Orange Theme</item>
+        <item>Orange Theme Dark Drawer</item>
+        <item>Deep Orange Theme</item>
+        <item>Deep Orange Theme Dark Drawer</item>
+        <item>Falcon Theme</item>
+        <item>Falcon Theme Dark Drawer</item>
+        <item>Lime Theme</item>
+        <item>Lime Theme Dark Drawer</item>
+        <item>Green Theme</item>
+        <item>Green Theme Dark Drawer</item>
+        <item>Light Green Theme</item>
+        <item>Light Green Theme Dark Drawer</item>
+        <item>Amber Theme</item>
+        <item>Amber Theme Dark Drawer</item>
+        <item>Yellow Theme</item>
+        <item>Yellow Theme Dark Drawer</item>
+        <item>Red Theme</item>
+        <item>Red Theme Dark Drawer</item>
+        <item>Blue Theme</item>
+        <item>Blue Theme Dark Drawer</item>
+        <item>Light Blue Theme</item>
+        <item>Light Blue Theme Dark Drawer</item>
+        <item>Cyan Theme</item>
+        <item>Cyan Theme Dark Drawer</item>
+        <item>Teal Theme</item>
+        <item>Teal Theme Dark Drawer</item>
+        <item>Brown Theme</item>
+        <item>Brown Theme Dark Drawer</item>
+        <item>Grey Theme</item>
+        <item>Grey Theme Dark Drawer</item>
+        <item>Blue Grey Theme</item>
+        <item>Blue Grey Theme Dark Drawer</item>
+        
+            
+        
+        
+    </string-array>
+    
+   	
+   	   
+   	
+   	<string-array name="pref_theme_fb_entries">
+    <item>Tema Facebook</item>              
+    <item>Tema Scuro</item>
+   	<item>Tema Dracula</item>   
+        
+    </string-array>
+
+   	
+   	<string name="quick_bar">QuickBar</string>
+       <string name="quick_bar_hint">Mostrare la QuickBar di Folio?</string>
+   	
+   	<string name="quick_bar_on">QuickBar Attivata.</string>
+   	
+   	<string name="quick_bar_off">QuickBar Disattivata.</string>
+   	
+   	       
+    <string name="no_images">Disabilita immagini</string>
+    <string name="no_images_hint">Riduce l\'utilizzo dei dati rimuovendo le immagini.</string>
+      
+        
+    <string name="hide_bar">Rimuovi la Barra di Facebook</string>
+    
+    
+    <string name="choose_theme_folio">Scegli tema App</string>
+    <string name="choose_theme_folio_hint">Tema Attuale: %s</string>
+      
+    
+    <string name="hidden_bar">Nascondi Toolbar</string>
+    
+   <string name="sync_problem">Porca Pupazza! Si à verificato un errore. Folio non puà ricevere le tue notifiche. Per favore chiudi e riapri Folio.</string>
+   
+   <string name="you_have_one_message">Hai 1 nuovo messaggio</string>
+  <string name="you_have_n_messages">Hai %d nuovi messaggi</string>
+  
+  	<string name="file_logger">Salva log</string>
+    <string name="file_logger_description">Salva il log del servizio notifiche su una memoria esterna. Richiede permesso di accesso alla memoria.</string>
+    <string name="file_logger_needs_permission">Accesso negato. Il Log non puà essere salvato.</string>
+    
+    
+         
+    <string name="interval_pref">Intervallo Sync di Contatori e Notifiche </string>
+    <string name="interval_pref_description">Notifiche e Contatori saranno aggiornati ogni %s.</string>
+          
+                 
+        <string-array name="update_interval">
+           <item>5 secondi</item>
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>3 ore</item>
+        <item>6 ore</item>        
+       </string-array>
+    
+    <string-array name="update_interval_values">
+        <item>5000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>        
+    </string-array>
+
+    
+    
+    
+    <string name="not_valid_title">Non valido</string>
+    <string name="not_valid_message">Questa versione di Folio non proviene dal Play Store pertanto non funziona.</string>
+    <string name="get_from_play">Google Play</string>
+    
+    <string name="people_you">Persone che potresti conoscere</string>
+    <string name="people_you_hint">Nascondi i suggerimenti sulle persone. (BETA)</string>
+    
+    <string name="download_manager_disabled">Il DownloadManager à disabilitato. Per favore abilitalo.</string>
+    <string name="cannot_access_storage">Accesso alla memoria esterna negato.</string>
+    <string name="file_cannot_be_saved">Un file non puà essere salvato</string>
+    <string name="camera_exception">Problema con la fotocamera</string>
+    
+    
+    
+    <string name="addPage">Add to Favorites</string>
+    <string name="removePage">Remove remove from Favorites</string>
+    
+    <string name="open_link_title">Open Links</string>
+    <string name="open_link_hint">Open external links in Folio</string>
+    
+    
+    
+    
+    
+          
+</resources>
