@@ -758,6 +758,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="open_link_title">Open Links</string>
     <string name="open_link_hint">Open external links in Folio</string>
     
+    <string name="remember_title">News Feed Position (Beta)</string>
+    <string name="remember_hint">Remember your News Feed postion.</string>
+    
     
     
     
