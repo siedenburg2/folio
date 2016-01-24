@@ -398,7 +398,7 @@ Copyright notice must remain here if you're using any part of this code.-->
 	<string name="about_change_log"><b>Lista de modificari Folio</b></string>
    
 	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
-	<string name="allrights">All Rights Reserved.</string>
+	<string name="allrights">Toate drepturile rezervate.</string>
 	
 	<string name="about_version">Version 7.3.1.1</string>
 	<string name="about_image">Image Credit: Klyph for Facebook</string>
@@ -410,68 +410,68 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="hello">Salut</string>    
     <string name="cancelled">S-a renuntat</string> 
     <string name="permission_not_granted">Nu se pot aplica actiunile selectate din cauza perimisiunilor insuficiente.</string>
-    <string name="image_chooser">Image Chooser</string>
-    <string name="loading_link">Opening With Folio</string>   
+    <string name="image_chooser">Alege aplicatia de vizualizare imagini</string>
+    <string name="loading_link">Deschidere cu Folio</string>   
     <string name="author">Created by Jorell Rutledge</string>    
-    <string name="title_activity_settings">Settings</string>        
-    <string name="title_activity_about">About Folio</string>
-    <string name="title_activity_about_hint">Learn about the different libraries used in Folio. Get its source on GitHub, join us on Facebook and more.</string>
+    <string name="title_activity_settings">Setari</string>        
+    <string name="title_activity_about">Despre Folio</string>
+    <string name="title_activity_about_hint"> Despre diferitele librarii folosite de Folio. Aceseaza sursa pe GitHub, alatura-ni-te pe Facebook.</string>
     
-    <string name="email_author">Send Feedback</string>    
-    <string name="choose_email_client">Choose e-mail client</string>    
-    <string name="no_network">You\'re not online.</string> <!-- You MUST include the \ in your translation. For example... ***You'\re**** is spelled like that -->    
+    <string name="email_author">Trimite parere</string>    
+    <string name="choose_email_client">Alege clientul de e-mail</string>    
+    <string name="no_network">Nu esti conectat la internet.</string> <!-- You MUST include the \ in your translation. For example... ***You'\re**** is spelled like that -->    
        
-    <string name="share_link">Share this item</string>    
-    <string name="long_clicks">Long Clicks</string>    
-    <string name="long_clicks_description">Long click images to save them.</string>
+    <string name="share_link">Imparte acest element</string>    
+    <string name="long_clicks">Apasari lungi</string>    
+    <string name="long_clicks_description">Apasa lung pe fotografii pentru a le salva.</string>
     
             
     <!-- Random Strings Part 2 -->
-    <string name="preference_category4">Folio Themes</string>
+    <string name="preference_category4">Teme Folio</string>
    
     
     
-    <string name="donate_jorell">Support Development &amp; Unlock Features</string>
-    <string name="donate_jorell_description">Help me stay up to code.</string>
+    <string name="donate_jorell">Ajuta la dezvoltare &amp; activeaza caracteristici.</string>
+    <string name="donate_jorell_description">Ajut-ma sa fiu la zi cu programarea.</string>
     <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
-    <string name="donate_jorell_about">Buy Me A Coffee</string>
+    <string name="donate_jorell_about">Ofera-mi o cafea.</string>
    	
    	
     
      <!-- Bottom Section of Credits-->
-    <string name="hardware_acceleration">Hardware Acceleration</string> 
-    <string name="credits_settings">Credits</string>
-    <string name="preference_category7">Customizations</string>
-    <string name="preference_about_category">About</string>
-    <string name="preference_set_category">All Set?</string>
-    <string name="preference_donate_category">Purchase Folio Key</string>
-    <string name="preference_rest_category">Reset Folio To Default Settings</string>
-    <string name="preference_category15">Folio Layout Settings</string>
-    <string name="preference_facebook_layouts">Facebook Layout Settings</string>
+    <string name="hardware_acceleration">Accelerare hard</string> 
+    <string name="credits_settings">Multumiri</string>
+    <string name="preference_category7">Modificari</string>
+    <string name="preference_about_category">Despre</string>
+    <string name="preference_set_category">Gata?</string>
+    <string name="preference_donate_category">Cumpara cheia Folio</string>
+    <string name="preference_rest_category">Adu Folio la setarile initiale</string>
+    <string name="preference_category15">Setarile de aspect Folio</string>
+    <string name="preference_facebook_layouts">Setarile de aspect Facebook</string>
     
-    <string name="fixed_nav">Fixed Facebook bar</string>
-    <string name="fixed_nav_description">Facebook navigation bar always on top.</string>
+    <string name="fixed_nav">Bara fixa Facebook</string>
+    <string name="fixed_nav_description">Bara Facebook este intotdeauna deasupra.</string>
     
-    <string name="credits_licenses">Tap here to read more about the licences used in Folio.</string>
-    <string name="credits_licenses_description">Open source software licenses</string>
-    <string name="clear_cache">Clear Data</string>  
+    <string name="credits_licenses">Apasa aici pentru a afla mai multe despre licentele folosite de Folio.</string>
+    <string name="credits_licenses_description">Licentele soft deschise</string>
+    <string name="clear_cache">Sterge datele.</string>  
     
-    <string name="clear_cache_title">Are you sure?</string> 
-    <string name="clear_cache_message">Tap OK to clear Folio\'s data. This will also log you out.</string> 
+    <string name="clear_cache_title">Esti sigur?</string> 
+    <string name="clear_cache_message">Apasa OK pentru a sterge datele folosite de Folio. Aceasta actiune te va deconecta.</string> 
       
-    <string name="clear_cache_description">Clear Folio\'s data. This will also log you out.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
+    <string name="clear_cache_description">Sterge datele folosite de Folio si iese din contul activ.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
         
-    <string name="preferences_feedback">Send Feedback</string>
-    <string name="preferences_feedback_description">Have a question? Need help? Tap here to send us an email.</string>
+    <string name="preferences_feedback">Trimite parere</string>
+    <string name="preferences_feedback_description">Ai o intrebare? ai nevoie de ajutor? Trimite-ne un e-mail.</string>
     <string name="preferences_feedback_link" translatable="true">mailto:creativetrendzappsllc@gmail.com?Subject=Folio</string>
     
-    <string name="preferences_rate">Help Others By Rating Folio</string>
-    <string name="preferences_rate_hint">Rate Folio on Google Play</string>
-    <string name="preferences_rate_description">Rate Folio</string>
+    <string name="preferences_rate">Ajuta pe altii sa categorizeze Folio</string>
+    <string name="preferences_rate_hint">Categorizeaza Folio in Google Play</string>
+    <string name="preferences_rate_description">Categorizeaza Folio</string>
     
       
-    <string name="preferences_auto">Auto Scroll</string>
-    <string name="preferences_auto_hint">Auto scroll to hide Facebook\'s menu?</string>
+    <string name="preferences_auto">Auto derulare</string>
+    <string name="preferences_auto_hint">Auto derulare pentru a ascunde meniul Facebook?</string>
     
     
     
