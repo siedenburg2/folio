@@ -53,7 +53,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="newsfeed">Cele mai recente</string>
     <string name="trending">Tendinte</string>
     <string name="messages">Mesaje</string>
-    <string name="topnews">Stirile cele mai bune</string>
+    <string name="topnews">Stiri de top</string>
     <string name="fbmenu">Meniul Facebook</string>
     
     <string name="faved">Favorite</string>
@@ -93,41 +93,41 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="enable_tumblr">Activeaza Tumblr</string>
     
     <!-- Removals -->
-    <string name="navigation_pref">Navigation Drawer Items</string>
-    <string name="navigation_pref_hint">Customize the navigation drawer by removing items you don\'t use in Folio.</string>
-    <string name="recent_nav">Remove Most Recent</string>
-    <string name="top_nav">Remove Top News</string>
-    <string name="facebook_nav">Remove Messages</string>
-    <string name="trending_nav">Remove Trending</string>
-    <string name="friends_nav">Remove Friends</string>
-    <string name="groups_nav">Remove Groups</string>
-    <string name="pages_nav">Remove Pages</string>
-    <string name="photos_nav">Remove Photos</string>
-    <string name="events_nav">Remove Events</string>
-    <string name="onday_nav">Remove On This Day</string>
-    <string name="saved_nav">Remove Saved</string>
+    <string name="navigation_pref">Scurtaturile de navigare</string>
+    <string name="navigation_pref_hint">Activeaza/dezactiveaza scurtaturile de navigare preferate.</string>
+    <string name="recent_nav">Dezactivare Cele mai recente</string>
+    <string name="top_nav">Dezactivare Stiri de top</string>
+    <string name="facebook_nav">Dezactivare Mesaje</string>
+    <string name="trending_nav">Dezactivare Tendinte</string>
+    <string name="friends_nav">Dezactivare Prieteni</string>
+    <string name="groups_nav">Dezactivare Grupuri</string>
+    <string name="pages_nav">Dezactivare Pagini</string>
+    <string name="photos_nav">Dezactivare Fotografii</string>
+    <string name="events_nav">Dezactivare Evenimente</string>
+    <string name="onday_nav">Dezactivare S-a intamplat azi</string>
+    <string name="saved_nav">Dezactivare Salvate</string>
     
     <!-- News Feed -->
-    <string name="news_feed_preferences">News Feed Preference</string>
-    <string name="top_always">Top News</string>
-    <string name="top_always_hint">Load Top News when launching Folio.</string>
+    <string name="news_feed_preferences">Preferintele fluxului de informatii</string>
+    <string name="top_always">Informatii de top</string>
+    <string name="top_always_hint">Arata informatiile de top la pornirea Folio.</string>
     
     <!-- Fonts -->
-    <string name="font_preference">Facebook Font Preference</string>
-    <string name="larger_font_hint">Increase readability by enlarging fonts throughout Facebook. Disable other sizes for your font preference to work.</string>
-    <string name="font_set">Tap to relaunch Folio with your chosen font size.</string>
-    <string name="default_font">Default Font Size</string>
-    <string name="medium_font">Medium Font Size</string>
-    <string name="large_font">Large Font Size</string>
-    <string name="xl_font">Xtra Large Font Size</string>
-    <string name="xxl_font">Xtra Xtra Large Font Size</string>
+    <string name="font_preference">Setari de litere pentru Facebook</string>
+    <string name="larger_font_hint">Mareste gradul de citire prin marirea literelor. Activeaza marimea dorita si dezactiveaza pe restul pentru a functiona.</string>
+    <string name="font_set">Restarteaza Folio cu marimea literei aleasa.</string>
+    <string name="default_font">Marime litera implicita</string>
+    <string name="medium_font">Marime litera medie</string>
+    <string name="large_font">Marime litera mare</string>
+    <string name="xl_font">Marime litera foarte mare</string>
+    <string name="xxl_font">Marime litera gigant</string>
     
     <string-array name="font_choice">
-       	<item>Default Font</item>
-        <item>Medium Font</item>
-        <item>Large Font</item>
-        <item>Xtra Large Font</item>
-        <item>Xtra Xtra Large Font</item>
+       	<item>Marime Litera implicita</item>
+        <item>Marime litera mediet</item>
+        <item>Marime litera mare</item>
+        <item>Marime litera foarte mare</item>
+        <item>Marime litera gigant</item>
                
     </string-array>
     
@@ -135,32 +135,32 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
     <!-- Overflow Menu Folio -->
-    <string name="top">Jump To Top</string>
-    <string name="fb_settings">Facebook Settings</string>
-    <string name="fb_chat">Active Friends</string>
-    <string name="fb_recent">Most Recent</string>
-    <string name="refresh">Refresh</string>
-    <string name="notifications">Notifications</string>
-    <string name="notifications_about_hint">Setup notifications.</string>
-    <string name="search">Search Facebook</string>
+    <string name="top">Du-te sus</string>
+    <string name="fb_settings">Setari Facebook</string>
+    <string name="fb_chat">Prieteni activi</string>
+    <string name="fb_recent">Cele mai recente</string>
+    <string name="refresh">re-incarcare</string>
+    <string name="notifications">Notificari</string>
+    <string name="notifications_about_hint">Setari de notificare.</string>
+    <string name="search">Cautare pe Facebook</string>
     
     
    	
 	
     <!-- Save Image On Long Press  & Sharing-->
-    <string name="savefolio">Save Image</string>
-    <string name="txt_save_image_success">Downloading Image.</string>
-    <string name="txt_save_image_failed">Could not save image</string>
-    <string name="share_action">Share current page</string>
-    <string name="share_action_subject">Facebook page</string>
+    <string name="savefolio">Salveaza fotografia</string>
+    <string name="txt_save_image_success">Fotografia se descarca.</string>
+    <string name="txt_save_image_failed">Fotografia nu se poate descarca.</string>
+    <string name="share_action">Imparte continutul paginii curente.</string>
+    <string name="share_action_subject">Pagina Facebook</string>
     
     <!-- Save Image On Long Press -->
     
     
-    <string name="get_started">Log In With Facebook</string>
-    <string name="send_feedback">Folio Feedback</string>
+    <string name="get_started">Intra in cont cu datele Facebook</string>
+    <string name="send_feedback">Parerea ta despre Folio</string>
     <string name="ok">OK</string>
-    <string name="applying_changes">Clearing cache. Relauch Folio.</string>
+    <string name="applying_changes">Se curata datele temporare si se relanseaza Folio.</string>
       
     
     <string name="cancel">Cancel</string>
@@ -168,13 +168,13 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- Don't Know Why I'm Giving A Choice Here But...-->
     
-    <string name="site_preference">Choose Facebook Mode (BETA)</string>
-    <string name="site_preference_hint">Current Mode: %s.</string>
+    <string name="site_preference">Alege modul Facebook (BETA)</string>
+    <string name="site_preference_hint">Modul curent: %s.</string>
     
     
-    <string name="default_mode">Facebook Mobile</string>
-    <string name="basic_mode">Facebook Basic</string>
-    <string name="desktop_mode">Desktop Mode</string>        
+    <string name="default_mode">Facebook mobil</string>
+    <string name="basic_mode">Facebook de baza</string>
+    <string name="desktop_mode">Modul desktop/string>        
   
     
    
