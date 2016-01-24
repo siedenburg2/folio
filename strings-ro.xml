@@ -49,18 +49,18 @@ Copyright notice must remain here if you're using any part of this code.-->
           
     
     <!-- Folio Drawer -->
-    <string name="quickaccess">Quick Access</string>
-    <string name="newsfeed">Most Recent</string>
-    <string name="trending">Trending</string>
-    <string name="messages">Messages</string>
-    <string name="topnews">Top News</string>
-    <string name="fbmenu">Facebook Menu</string>
+    <string name="quickaccess">Acces rapid</string>
+    <string name="newsfeed">Cele mai recente</string>
+    <string name="trending">Tendinte</string>
+    <string name="messages">Mesaje</string>
+    <string name="topnews">Stirile cele mai bune</string>
+    <string name="fbmenu">Meniul Facebook</string>
     
-    <string name="faved">Favorites</string>
-    <string name="friends">Friends</string>
-    <string name="groups">Groups</string>
-    <string name="pages">Pages</string>
-    <string name="photos">Photos</string>
+    <string name="faved">Favorite</string>
+    <string name="friends">Prieteni</string>
+    <string name="groups">Grupuri</string>
+    <string name="pages">Pagini</string>
+    <string name="photos">Fotografii</string>
     
     <string name="reminders">Reminders</string>
     <string name="events">Events</string>
