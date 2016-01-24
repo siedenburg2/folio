@@ -395,7 +395,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
      <!-- OK To Translate-->
     
-	<string name="about_change_log"><b>Folio Change Log</b></string>
+	<string name="about_change_log"><b>Lista de modificari Folio</b></string>
    
 	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
 	<string name="allrights">All Rights Reserved.</string>
@@ -406,10 +406,10 @@ Copyright notice must remain here if you're using any part of this code.-->
     
      <!-- Random Strings Part 1 -->
      
-    <string name="fb_offline">Error</string>    
-    <string name="hello"></string>    
-    <string name="cancelled">Cancelled</string>    
-    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="fb_offline">Eroare</string>    
+    <string name="hello">Salut</string>    
+    <string name="cancelled">S-a renuntat</string> 
+    <string name="permission_not_granted">Nu se pot aplica actiunile selectate din cauza perimisiunilor insuficiente.</string>
     <string name="image_chooser">Image Chooser</string>
     <string name="loading_link">Opening With Folio</string>   
     <string name="author">Created by Jorell Rutledge</string>    
