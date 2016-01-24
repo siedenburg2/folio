@@ -12,9 +12,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="action_settings">Setari</string>
     <string name="end">Iesire cont</string>
     <!-- Close Drawer -->
-    <string name="closeDrawer">Mod navigare pornit.</string>
+    <string name="closeDrawer">Scurtaturi de navigare.</string>
     <!-- Open Drawer -->
-    <string name="openDrawer">Mod navigare oprit.</string>
+    <string name="openDrawer">Ascunde scurtaturile de navigare.</string>
     
     <!-- Close The App -->
     <string name="exit">Inchidere</string>
@@ -62,35 +62,35 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="pages">Pagini</string>
     <string name="photos">Fotografii</string>
     
-    <string name="reminders">Reminders</string>
-    <string name="events">Events</string>
-    <string name="onthisday">On This Day</string>
-    <string name="saved">Saved</string>
+    <string name="reminders">Alarme</string>
+    <string name="events">Evenimente</string>
+    <string name="onthisday">S-a intamplat azi</string>
+    <string name="saved">Salvate</string>
     
-    <string name="prefs">Preferences</string>
-    <string name="settings">Settings</string>
-    <string name="helpfeed">Feedback</string>
-    <string name="bugs">Report A Bug</string>
+    <string name="prefs">Preferinte</string>
+    <string name="settings">Setari</string>
+    <string name="helpfeed">Pareri</string>
+    <string name="bugs">Raporteaza o eroare</string>
     
     <!-- Twitter Drawer -->
-    <string name="discover">Discover</string>
-    <string name="connect">Connect</string>
-    <string name="twitter_search">Search</string>
-    <string name="twitter_home">Home</string>
-    <string name="twitter_me">Me</string>
-    <string name="switch_to_folio">Switch to Folio</string>
-    <string name="switch_to_twitter">Switch to Twitter</string>
-    <string name="switch_to_gplus">Switch to Google+</string>
-    <string name="switch_to_gram">Switch to Instagram</string>
-    <string name="switch_to_tum">Switch to Tumblr</string>
+    <string name="discover">Descopera</string>
+    <string name="connect">Conecteaza-te</string>
+    <string name="twitter_search">Cauta</string>
+    <string name="twitter_home">Acasa</string>
+    <string name="twitter_me">Eu</string>
+    <string name="switch_to_folio">Schimba pe Folio</string>
+    <string name="switch_to_twitter">Schimba pe Twitter</string>
+    <string name="switch_to_gplus">Schimba pe Google+</string>
+    <string name="switch_to_gram">Schimba pe Instagram</string>
+    <string name="switch_to_tum">Schimba pe Tumblr</string>
     
     <!-- Add ons -->
-    <string name="addons">Social Add-ons</string>
-    <string name="addons_hint">Twitter requires the Twitter Add-on Key. All other add-ons require the Folio Key.</string>
-    <string name="enable_twitter">Enable Twitter</string>
-    <string name="enable_google">Enable Google+</string>
-    <string name="enable_instagram">Enable Instagram</string>
-    <string name="enable_tumblr">Enable Tumblr</string>
+    <string name="addons">Module sociale</string>
+    <string name="addons_hint">Modulul Twitter necesita cheie speciala de activare. Toate celelalte module necesita doar cheie Folio.</string>
+    <string name="enable_twitter">Activeaza Twitter</string>
+    <string name="enable_google">Activeaza Google+</string>
+    <string name="enable_instagram">Activeaza Instagram</string>
+    <string name="enable_tumblr">Activeaza Tumblr</string>
     
     <!-- Removals -->
     <string name="navigation_pref">Navigation Drawer Items</string>
