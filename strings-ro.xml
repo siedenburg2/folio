@@ -412,7 +412,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="permission_not_granted">Nu se pot aplica actiunile selectate din cauza perimisiunilor insuficiente.</string>
     <string name="image_chooser">Alege aplicatia de vizualizare imagini</string>
     <string name="loading_link">Deschidere cu Folio</string>   
-    <string name="author">Created by Jorell Rutledge</string>    
+    <string name="author">Creat de Jorell Rutledge</string>    
     <string name="title_activity_settings">Setari</string>        
     <string name="title_activity_about">Despre Folio</string>
     <string name="title_activity_about_hint"> Despre diferitele librarii folosite de Folio. Aceseaza sursa pe GitHub, alatura-ni-te pe Facebook.</string>
@@ -479,7 +479,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- All About Credits -->
         
-    <string name="preference_category6">Credits</string>
+    <string name="preference_category6">Multumiri</string>
     
     <string name="credits_bejan">Bejan Kanga</string>
     <string name="credits_bejan_description">For launcher icons for Folio &amp; Folio Messenger. Also some navigation drawer icons. Also help with development on portions of the original app FrontPage. Tap here to visit his website.</string>
@@ -569,34 +569,34 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- All About Notifications -->
     
-    <string name="preference_category5">General</string>
-    <string name="activate_notifications">Facebook Notifications</string>
-    <string name="activate_messages">Message Notifications</string>
-    <string name="activate_friends">Friend Request Notifications</string>    
-    <string name="notifications_service_created">Notifications Activated</string>
-    <string name="notifications_settings">Notifications</string>
-    <string name="all_notifications">View All Notifications</string>
-    <string name="all_messages">View Messages</string>
-    <string name="all_requests">View Friend Requests</string>
-    <string name="notification_sound">Notification Sound</string>
-    <string name="notification_sound_description">Current: \u0020</string>
-    <string name="message_sound">Message Notification Sound</string>
-    <string name="message_sound_description">Current: \u0020</string>
-    <string name="silent">No Sound</string>
-    <string name="vibrate">Vibrate</string>
-    <string name="led_light">Notification LED</string>
-    <string name="notifications_extra">Additional</string>
-    <string name="notifications_everywhere">Always Be Notified</string>
-    <string name="notifications_everywhere_description">Even when you\'re using Folio.</string>
+    <string name="preference_category5">Preferinte generale</string>
+    <string name="activate_notifications">Notificari Facebook</string>
+    <string name="activate_messages">Notificari Mesaje</string>
+    <string name="activate_friends">Notificari cereri de prietenie</string>    
+    <string name="notifications_service_created">Notificari activate</string>
+    <string name="notifications_settings">Notificari</string>
+    <string name="all_notifications">Vezi toate notificarile</string>
+    <string name="all_messages">Vezi mesajele</string>
+    <string name="all_requests">Vezi cererile de prietenie</string>
+    <string name="notification_sound">Sunetul notificarii</string>
+    <string name="notification_sound_description">Curent: \u0020</string>
+    <string name="message_sound">Suntetul notificarii de mesaj</string>
+    <string name="message_sound_description">Curent: \u0020</string>
+    <string name="silent">Fara sunet</string>
+    <string name="vibrate">Vibreaza</string>
+    <string name="led_light">Becul de notificare</string>
+    <string name="notifications_extra">Aditionale</string>
+    <string name="notifications_everywhere">Fii mereu notificat</string>
+    <string name="notifications_everywhere_description">Chiar si cand folosesti Folio.</string>
     <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
     
    	
 	
-	<string name="friend_request">&#160;new friend request</string>
-	<string name="friend_requests">&#160;new friend requests</string>
+	<string name="friend_request">&#160;cerere noua de prietenie</string>
+	<string name="friend_requests">&#160;cereri noi de prietenie</string>
 	
-	<string name="new_notification">&#160;new notification</string>
-	<string name="new_notifications">&#160;new notifications</string>
+	<string name="new_notification">&#160;notificare noua</string>
+	<string name="new_notifications">&#160;notificari noi</string>
 	
 		
 	
