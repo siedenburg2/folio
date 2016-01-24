@@ -124,7 +124,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string-array name="font_choice">
        	<item>Marime Litera implicita</item>
-        <item>Marime litera mediet</item>
+        <item>Marime litera medie</item>
         <item>Marime litera mare</item>
         <item>Marime litera foarte mare</item>
         <item>Marime litera gigant</item>
@@ -139,7 +139,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="fb_settings">Setari Facebook</string>
     <string name="fb_chat">Prieteni activi</string>
     <string name="fb_recent">Cele mai recente</string>
-    <string name="refresh">re-incarcare</string>
+    <string name="refresh">Re-incarcare</string>
     <string name="notifications">Notificari</string>
     <string name="notifications_about_hint">Setari de notificare.</string>
     <string name="search">Cautare pe Facebook</string>
@@ -163,7 +163,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="applying_changes">Se curata datele temporare si se relanseaza Folio.</string>
       
     
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Renunta</string>
     
     
     <!-- Don't Know Why I'm Giving A Choice Here But...-->
