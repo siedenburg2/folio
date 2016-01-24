@@ -35,7 +35,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="license_failed">Teme dezactivate.</string>
     
     <string name="show_fab">Arata scurtaturile</string>
-    <string name="show_fab_hint">Activeaza un buton pentru a posta stari/modificari pe Facebook prin Folio. Aspectul initial al aplicatiei nu ascunde butonul de scurtaturi. Daca ascunzi bara originala Facebook, butonul se va ascunde si el. Acesta va dezactiva temele si ascpectele Facebook. E deasemenea instabil pentru moment.
+    <string name="show_fab_hint">Activeaza un buton pentru a posta stari/modificari pe Facebook prin Folio. Aspectul initial al aplicatiei nu ascunde butonul de scurtaturi. Daca ascunzi bara originala Facebook, butonul se va ascunde si el. Acesta va dezactiva temele si ascpectele Facebook. E deasemenea instabil pentru moment.</string>
     
     <string name="loading_video">Se incarca.</string>
     
@@ -174,7 +174,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string name="default_mode">Facebook mobil</string>
     <string name="basic_mode">Facebook de baza</string>
-    <string name="desktop_mode">Modul desktop/string>        
+    <string name="desktop_mode">Modul desktop</string>        
   
     
    
@@ -374,25 +374,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="about_header">Open source licenses\nNotices for files</string>
     
      <!-- DO NOT TRANSLATE-->
-    <string name="change_log"><![CDATA[
-	<b>Version 7.3.1.1</b>
-	
-	<br><br>
-
-	<b>What\'s New</b>
-	<br><br>
-	-Settings menu adjustments to help find preferences faster.<br><br>
-	-New font size selector. Easily change your font size. Tap to apply changes.<br><br>
-	-New Facebook themes selector. Easily change Facebook themes. Tap to apply changes.<br><br>
-	-Try Folio theme\'s for FREE for a limited time.<br><br>
-	-Turkish language added.<br><br>
-	-Sending bugs or feedback has now moved to the settings overflow menu.<br><br>
-	-Better hiding of the FAB (Floating Action Button) on devices with physical buttons.<br><br>
-	-Ninja code.<br><br>
-
-
-		]]></string>
-    
+        
      <!-- OK To Translate-->
     
 	<string name="about_change_log"><b>Lista de modificari Folio</b></string>
@@ -400,7 +382,6 @@ Copyright notice must remain here if you're using any part of this code.-->
 	<string name="copyright">\u00A9 2015 Creative Trends Apps LLC.</string>
 	<string name="allrights">Toate drepturile rezervate.</string>
 	
-	<string name="about_version">Version 7.3.1.1</string>
 	<string name="about_image">Image Credit: Klyph for Facebook</string>
 	
     
