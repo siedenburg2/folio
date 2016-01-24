@@ -36,7 +36,6 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string name="show_fab">Arata scurtaturile</string>
     <string name="show_fab_hint">Activeaza un buton pentru a posta stari/modificari pe Facebook prin Folio. Aspectul initial al aplicatiei nu ascunde butonul de scurtaturi. Daca ascunzi bara originala Facebook, butonul se va ascunde si el. Acesta va dezactiva temele si ascpectele Facebook. E deasemenea instabil pentru moment.
-
     
     <string name="loading_video">Se incarca.</string>
     
