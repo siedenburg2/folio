@@ -432,9 +432,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
     <string name="donate_jorell">Ajuta la dezvoltare &amp; activeaza caracteristici.</string>
-    <string name="donate_jorell_description">Ajut-ma sa fiu la zi cu programarea.</string>
+    <string name="donate_jorell_description">Ajuta-ma sa fiu la zi cu programarea.</string>
     <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
-    <string name="donate_jorell_about">Ofera-mi o cafea.</string>
+    <string name="donate_jorell_about">Ofera-mi o cafea!</string>
    	
    	
     
@@ -459,7 +459,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="clear_cache_title">Esti sigur?</string> 
     <string name="clear_cache_message">Apasa OK pentru a sterge datele folosite de Folio. Aceasta actiune te va deconecta.</string> 
       
-    <string name="clear_cache_description">Sterge datele folosite de Folio si iese din contul activ.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
+    <string name="clear_cache_description">Stergi datele folosite de Folio si iesi din contul activ.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
         
     <string name="preferences_feedback">Trimite parere</string>
     <string name="preferences_feedback_description">Ai o intrebare? ai nevoie de ajutor? Trimite-ne un e-mail.</string>
@@ -580,14 +580,14 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="all_requests">Vezi cererile de prietenie</string>
     <string name="notification_sound">Sunetul notificarii</string>
     <string name="notification_sound_description">Curent: \u0020</string>
-    <string name="message_sound">Suntetul notificarii de mesaj</string>
+    <string name="message_sound">Sunetul notificarii de mesaj</string>
     <string name="message_sound_description">Curent: \u0020</string>
     <string name="silent">Fara sunet</string>
     <string name="vibrate">Vibreaza</string>
-    <string name="led_light">Becul de notificare</string>
+    <string name="led_light">Lumina de notificare</string>
     <string name="notifications_extra">Aditionale</string>
-    <string name="notifications_everywhere">Fii mereu notificat</string>
-    <string name="notifications_everywhere_description">Chiar si cand folosesti Folio.</string>
+    <string name="notifications_everywhere">Sa fiu mereu notificat</string>
+    <string name="notifications_everywhere_description">Chiar si cand folosesc Folio.</string>
     <string name="get_key">https://play.google.com/store/apps/details?id=com.creativetrends.folio.app.key</string>
     
    	
@@ -604,19 +604,19 @@ Copyright notice must remain here if you're using any part of this code.-->
     <!-- ALL ABOUT THEMES-->
     
     
-    <string name="choose_font_facebook">Facebook Font Size</string>
-    <string name="choose_font_facebook_hint">Current font size: %s</string>
+    <string name="choose_font_facebook">Marimea fontului Facebook</string>
+    <string name="choose_font_facebook_hint">Marimea curenta: %s</string>
     
     
-   <string name="preference_category3">Facebook Themes</string>
+   <string name="preference_category3">Teme Facebook</string>
     
-    <string name="dark_theme">Black Theme</string>
+    <string name="dark_theme">Tema neagra</string>
     
-    <string name="dark_theme_description">Turn on black theme.</string>
+    <string name="dark_theme_description">Activeaza tema neagra.</string>
     
-    <string name="red_theme">Android Studio Theme</string>
+    <string name="red_theme">Tema Dracula</string>
     
-    <string name="red_theme_description">Turn on Dracula theme.</string>
+    <string name="red_theme_description">Activeaza tema Dracula.</string>
      
     
           
@@ -680,51 +680,51 @@ Copyright notice must remain here if you're using any part of this code.-->
     </string-array>
 
    	
-   	<string name="quick_bar">QuickBar</string>
-   	<string name="quick_bar_hint">Show Folio QuickBar?</string>
+   	<string name="quick_bar">Bara rapida</string>
+   	<string name="quick_bar_hint">Arata bara rapida Folio?</string>
    	
-   	<string name="quick_bar_on">QuickBar is now on.</string>
+   	<string name="quick_bar_on">Bara rapida e activata.</string>
    	
-   	<string name="quick_bar_off">QuickBar is now off.</string>
+   	<string name="quick_bar_off">Bara rapida e dezactivata.</string>
    	
    	       
-    <string name="no_images">Disable Images</string>
-    <string name="no_images_hint">Reduce data usage be removing images.</string>
+    <string name="no_images">Dezactiveaza imaginile</string>
+    <string name="no_images_hint">Reduce folosirea datelor prin dezactivarea imaginilor.</string>
       
         
-    <string name="hide_bar">Remove Facebook Bar</string>
+    <string name="hide_bar">Dezactiveaza bara Facebook</string>
     
     
-    <string name="choose_theme_folio">Choose App Theme</string>
-    <string name="choose_theme_facebook">Choose Facebook Theme</string>
-    <string name="choose_theme_folio_hint">Current theme: %s</string>
+    <string name="choose_theme_folio">Alege tema Folio</string>
+    <string name="choose_theme_facebook">Alege tema Facebook</string>
+    <string name="choose_theme_folio_hint">Tema curenta: %s</string>
       
     
-    <string name="hidden_bar">Hide Toolbar</string>
+    <string name="hidden_bar">Ascunde bara de unelte</string>
     
-   <string name="sync_problem">Awe snap! That\'s an error. Folio couldn\'t get your notifications. Please close and reopen Folio.</string>
+   <string name="sync_problem">Stop! Asta e o eroare! Folio nu poate accesa notificarile tale. Te rog reporneste Folio.</string>
    
-   <string name="you_have_one_message">You have 1 new message</string>
-  <string name="you_have_n_messages">You have %d new messages</string>
+   <string name="you_have_one_message">Ai un mesaj nou</string>
+  <string name="you_have_n_messages">Ai %d mesaje</string>
   
-  	<string name="file_logger">Save logs to a file</string>
-    <string name="file_logger_description">Save Notification Service logs to an external memory. It needs a storage permission.</string>
-    <string name="file_logger_needs_permission">No access to external storage. Log cannot be saved.</string>
+  	<string name="file_logger">Salveaza inregistrarile in fisier</string>
+    <string name="file_logger_description">Salveaza inregistrarile sistemului de notificare extern. E nevoie de permisiune speciala pentru asta.</string>
+    <string name="file_logger_needs_permission">Nu ai acces la mediul extern de stocare. Inregistrarile nu pot fi salvate.</string>
     
     
          
-    <string name="interval_pref">Badge &amp; Sync Service</string>
-    <string name="interval_pref_description">Notifications &amp; badges will be checked every %s.</string>
+    <string name="interval_pref">Numarul de notificari &amp; Sync Service</string>
+    <string name="interval_pref_description">Notificarile &amp; numarul de notificari va fi verificat la fiecare %s.</string>
           
                  
         <string-array name="update_interval">
-       	<item>5 seconds</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>        
+       	<item>5 secunde</item>
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>30 minute</item>
+        <item>1 ora</item>
+        <item>3 ore</item>
+        <item>6 ore</item>        
     </string-array>
     
     <string-array name="update_interval_values">
@@ -740,17 +740,17 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
     
-    <string name="not_valid_title">Not Valid</string>
-    <string name="not_valid_message">This version of Folio is not from the Play Store and will not function.</string>
+    <string name="not_valid_title">Nu e valid</string>
+    <string name="not_valid_message">Aceasta versiune de Folio nu este de pe Google Play si nu va functiona.</string>
     <string name="get_from_play">Google Play</string>
     
-    <string name="people_you">People You May Know</string>
-    <string name="people_you_hint">Hide people you may know. (BETA)</string>
+    <string name="people_you">Persoane pe care le-ai putea cunoaste</string>
+    <string name="people_you_hint">Ascunde persoanele pe care le-ai putea cunoaste. (BETA)</string>
     
-    <string name="download_manager_disabled">DownloadManager is disabled. Please enable it.</string>
-    <string name="cannot_access_storage">No access to external storage</string>
-    <string name="file_cannot_be_saved">A file cannot be saved</string>
-    <string name="camera_exception">Problems with a camera</string>
+    <string name="download_manager_disabled">Managerul de fisiere descarcate e dezactivat. Activeaza-l.</string>
+    <string name="cannot_access_storage">Nu ai acces la mediul de stocare extern.</string>
+    <string name="file_cannot_be_saved">Un fisier nu poate fi salvat.</string>
+    <string name="camera_exception">Probleme cu camera</string>
     
     
     
