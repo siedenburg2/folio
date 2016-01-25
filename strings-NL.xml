@@ -9,7 +9,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <!-- Replaces Facebook WebView Title -->
     <string name="app_name_toolbar">Folio</string>
     <string name="app_name_about">Folio for Facebook</string>
-    <string name="action_settings">Instellinen</string>
+    <string name="action_settings">Instellingen</string>
     <string name="end">Uitloggen</string>
     <!-- Close Drawer -->
     <string name="closeDrawer">Navigatie View</string>
@@ -17,7 +17,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="openDrawer">Open Linker Drawer</string>
     
     <!-- Close The App -->
-    <string name="exit">Sluiten</string>
+    <string name="exit">Afsluiten</string>
     <!-- Save Image On Long Press -->
     <string name="customize_folio">Folio aanpassen</string>
     <string name="customize_folio_hint">Verander uiterlijk en layout.</string>
@@ -34,8 +34,8 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="license_success">Thema\'s geactiveerd</string>
     <string name="license_failed">Thema\'s uitgeschakeld</string>
     
-    <string name="show_fab">Laat FAB zien</string>
-    <string name="show_fab_hint">Laat een zwevende actie knop zien om status updates te posten op Facebook via Folio. Wanneer dit wordt gebruikt in de standaard layout zal de FAB niet worden verborgen. Wanneer de facebook balk en toolbar zijn verwijderd wordt de FAB wel verborgen. Dit schakelt de Facebook thema's en layouts uit. Deze optie is momenteel ook erg buggy.</string>
+    <string name="show_fab">Weergeef een FAB</string>
+    <string name="show_fab_hint">Weergeef een zwevende actie knop om status updates te posten op Facebook via Folio. Wanneer dit wordt gebruikt in de standaard layout zal de FAB niet worden verborgen. Wanneer de facebook balk en toolbar zijn verwijderd wordt de FAB wel verborgen. Dit schakelt de Facebook thema's en layouts uit. Deze optie is momenteel ook erg buggy.</string>
     
     <string name="loading_video">Laden.</string>
     
@@ -49,7 +49,7 @@ Copyright notice must remain here if you're using any part of this code.-->
           
     
     <!-- Folio Drawer -->
-    <string name="quickaccess">Quick Access</string>
+    <string name="quickaccess">Snelle Toegang</string>
     <string name="newsfeed">Meest Recent</string>
     <string name="trending">Trending</string>
     <string name="messages">Berichten</string>
@@ -86,7 +86,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- Add ons -->
     <string name="addons">Social Add-ons</string>
-    <string name="addons_hint">Twitter is de Twitter Add-on sleuten nodig. Alle andere add-ons zijn de Folio sleutel nodig. Andere add-ons zijn nog niet mogelijk om in te schakelen.</string>
+    <string name="addons_hint">Twitter vereist de Twitter Add-on Sleutel nodig. Alle andere add-ons vereisen de Folio sleutel. Andere add-ons zijn nog niet beschikbaar om in te schakelen.</string>
     <string name="enable_twitter">Schakel Twitter in</string>
     <string name="enable_google">Schakel Google+ in</string>
     <string name="enable_instagram">Schakel Instagram in</string>
@@ -109,18 +109,18 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <!-- News Feed -->
     <string name="news_feed_preferences">News Feed Voorkeuren</string>
-    <string name="top_always">Top Nieuwws</string>
-    <string name="top_always_hint">Laad Top News wanneer Folio wordt gestart.</string>
+    <string name="top_always">Top Nieuws</string>
+    <string name="top_always_hint">Laad Top Nieuws wanneer Folio wordt gestart.</string>
     
     <!-- Fonts -->
     <string name="font_preference">Facebook Lettertype Voorkeuren</string>
-    <string name="larger_font_hint">Leesbaarheid verbeteren door het lettertype te vergroten op Facebook. Schakel andere lettertype groottes uit in je instellingen om deze optie te laten werken.<string>
+    <string name="larger_font_hint">Leesbaarheid verbeteren door het lettertype te vergroten op Facebook. Schakel andere lettergroottes uit in je instellingen om deze optie te laten werken.</string>
     <string name="font_set">Tap om Folio opnieuw te starten met het gekozen lettertype.</string>
-    <string name="default_font">Standaard Lettertype</string>
-    <string name="medium_font">Medium Lettertype</string>
-    <string name="large_font">Groot Lettertype</string>
-    <string name="xl_font">Extra Groot Lettertype</string>
-    <string name="xxl_font">Extra-Extra Groot Lettertype</string>
+    <string name="default_font">Standaard Lettergrootte</string>
+    <string name="medium_font">Medium Lettergrootte</string>
+    <string name="large_font">Grote Lettergrootte</string>
+    <string name="xl_font">Extra Grote Lettergrootte</string>
+    <string name="xxl_font">Extra-Extra Grote Lettergrootte</string>
     
     <string-array name="font_choice">
        	<item>Standaard Lettertype</item>
@@ -140,7 +140,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="fb_settings">Facebook Instellingen</string>
     <string name="fb_chat">Actieve Vrienden</string>
     <string name="fb_recent">Meest Recent</string>
-    <string name="refresh">Herladen</string>
+    <string name="refresh">Vernieuwen</string>
     <string name="notifications">Notificaties</string>
     <string name="notifications_about_hint">Notificaties instellen.</string>
     <string name="search">Zoek door Facebook</string>
@@ -160,7 +160,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="facebook_app_id">691828467548980</string>
     <string name="get_started">Log In Met Facebook</string>
     <string name="send_feedback">Folio Feedback</string>
-    <string name="ok">Ok&eacute;</string>
+    <string name="ok">Oké</string>
     <string name="applying_changes">Cache leegmaken. Start Folio opnieuw.</string>
       
     
@@ -405,9 +405,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="fb_offline">Error</string>    
     <string name="hello"></string>    
     <string name="cancelled">Geannuleerd</string>    
-    <string name="permission_not_granted">Het was niet mogelijk om de actie uit te voeren omdat de rechten niet geaccepteerd zijn.</string>
+    <string name="permission_not_granted">Het is niet mogelijk deze actie uit te voeren, omdat de permissies niet toegekend zijn.</string>
     <string name="image_chooser">Afbeelding kiezer</string>
-    <string name="loading_link">Opening With Folio</string>   
+    <string name="loading_link">Openen met Folio</string>
     <string name="author">Gemaakt door Jorell Rutledge</string>    
     <string name="title_activity_settings">Instellingen</string>        
     <string name="title_activity_about">Over Folio</string>
@@ -419,7 +419,7 @@ Copyright notice must remain here if you're using any part of this code.-->
        
     <string name="share_link">Deel dit item</string>    
     <string name="long_clicks">Lang Kliken</string>    
-    <string name="long_clicks_description">Houdt afbeeldingen lang ingedrukt om deze op te slaan.</string>
+    <string name="long_clicks_description">Houd afbeeldingen lang ingedrukt om deze op te slaan.</string>
     
             
     <!-- Random Strings Part 2 -->
@@ -427,7 +427,7 @@ Copyright notice must remain here if you're using any part of this code.-->
    
     
     
-    <string name="donate_jorell">Steun de ontwikkeling &amp; ontgrendel meer features</string>
+    <string name="donate_jorell"><![CDATA[Steun de ontwikkeling & ontgrendel features]]></string>
     <string name="donate_jorell_description">Help me wakker te blijven om meer code te schrijven.</string>
     <string name="donate_jorell_link" translatable="true">http://paypal.me/creativetrends</string>
     <string name="donate_jorell_about">Koop een kop koffie voor mij</string>
@@ -453,9 +453,9 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="clear_cache">Verwijder Data</string>  
     
     <string name="clear_cache_title">Weet je het zeker?</string> 
-    <string name="clear_cache_message">Klik op Ok&eacute; om Folio\'s data te verwijderen. Dit zorgt er ook voor dat je wordt uitgelogd.</string> 
+    <string name="clear_cache_message">Klik op Oké om Folio\'s data te verwijderen. Dit zal je ook uitloggen.</string>
       
-    <string name="clear_cache_description">Verijder Folio\'s data. Dit zorgt er ook voor dat je wordt uitgelogd.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
+    <string name="clear_cache_description">Verwijder Folio\'s data. Dit zorgt er ook voor dat je wordt uitgelogd.</string> <!-- You MUST include the \ in your translation. For example... ***You\'re**** is spelled like that -->
         
     <string name="preferences_feedback">Stuur Feedback</string>
     <string name="preferences_feedback_description">Heb je een vraag? Hulp nodig? Klik hier om ons een email te sturen.</string>
@@ -502,27 +502,27 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
     <string name="credits_janae">Janae</string>
-    <string name="credits_janae_description">Voor het delen van interesse en geduldig blijven wanneer papa werkt.</string>
+    <string name="credits_janae_description">Voor het delen van interesse in technologie en geduldig blijven wanneer papa werkt.</string>
     
     
     <string name="credits_tykeshia">Tykeshia</string>
-    <string name="credits_tykeshia_description">Voor de support de afgelopen jaren. Bedankt voor het lenen van de laptop.</string>
+    <string name="credits_tykeshia_description">Voor de steun en aamoediging de afgelopen jaren. Bedankt voor het lenen van de laptop.</string>
     
     
     <string name="credits_facebook">Facebook Inc.</string>    
-    <string name="credits_facebook_description">Voor de nieuwe graph api. Ook voor de mobiele site welke gebruikt wordt in Folio.</string>
+    <string name="credits_facebook_description">Voor de nieuwe graph api. Ook voor de mobiele site die gebruikt wordt in Folio.</string>
     <string name="credits_facebook_link" translatable="true">http://m.facebook.com</string>
     
     <string name="credits_google">Google Inc.</string>
-    <string name="credits_google_description">For AppCompat v7, also for open sourcing your Material Design icons.</string>
+    <string name="credits_google_description">Voor AppCompat v7, tevens voor het open sourcen van je Material Design iconen.</string>
     <string name="credits_google_link" translatable="true">https://developer.android.com/tools/support-library/features.html</string>
     
     
-    <string name="preference_category10">Open Source Software Used</string>
-    <string name="preference_category8">Open Source Licenses</string> 
+    <string name="preference_category10">Gebruikte Open Source Software</string>
+    <string name="preference_category8">Open Source Licenties</string>
      
     <string name="credits_tray">Tray Preferences</string>
-    <string name="credits_tray_description">Tap here to fork the project.</string>
+    <string name="credits_tray_description">Klik hier om het project te forken.</string>
     <string name="credits_tray_link" translatable="true">https://github.com/grandcentrix/tray</string>
     
     
@@ -532,7 +532,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
         
     <string name="credits_preferences">Material Preference Compat</string>
-    <string name="credits_preferences_description">Tap here to fork the project.</string>
+    <string name="credits_preferences_description">Klik hier om het project te forken.</string>
     <string name="credits_preferences_link" translatable="true">https://github.com/fython/MaterialPreferenceCompat</string>
     
     
@@ -565,6 +565,9 @@ Copyright notice must remain here if you're using any part of this code.-->
 	<string name="credits_dut">Robert Boes</string>
     <string name="credits_dut_description">Nederlands</string>
 
+    <string name="credits_dut2">Dennis</string>
+    <string name="credits_dut2_description">Nederlands</string>
+
     <string name="help_trans">Help met vertalen</string>
     <string name="help_trans_hint">Klik om te helpen Folio te vertalen in je eigen taal.</string>
    
@@ -580,7 +583,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="preference_category5">Algemeen</string>
     <string name="activate_notifications">Facebook Notificaties</string>
     <string name="activate_messages">Berichten Notificaties</string>
-    <string name="activate_friends">Vriend Verzoeken Notifications</string>    
+    <string name="activate_friends">Vriend Verzoek Notificaties</string>
     <string name="notifications_service_created">Notificaties Ingeschakeld</string>
     <string name="notifications_settings">Notificaties</string>
     <string name="all_notifications">Bekijk Notificaties</string>
@@ -690,12 +693,12 @@ Copyright notice must remain here if you're using any part of this code.-->
     </string-array>
 
    	
-   	<string name="quick_bar">QuickBar</string>
-   	<string name="quick_bar_hint">Toon Folio QuickBar?</string>
+    <string name="quick_bar">Snelbalk</string>
+    <string name="quick_bar_hint">Toon Folio Snelbalk?</string>
    	
-   	<string name="quick_bar_on">QuickBar is nu aan.</string>
+    <string name="quick_bar_on">Snelbalk staat nu aan.</string>
    	
-   	<string name="quick_bar_off">QuickBar is nu uit.</string>
+    <string name="quick_bar_off">Snelbalk staat nu uit.</string>
    	
    	       
     <string name="no_images">Afbeeldingen Uitschakelen</string>
@@ -712,13 +715,13 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string name="hidden_bar">Verberg Toolbar</string>
     
-   <string name="sync_problem">Awe snap! Dat is een error. Folio kon je notificaties niet krijgen. Sluit en open Folio alstublieft.</string>
+   <string name="sync_problem">Awe snap! Dat is een error. Folio kon je notificaties niet krijgen. Sluit en heropen Folio alstublieft.</string>
    
    <string name="you_have_one_message">Je hebt 1 nieuw bericht</string>
   <string name="you_have_n_messages">Je hebt %d nieuwe berichten</string>
   
   	<string name="file_logger">Sla logs op naar een bestand</string>
-    <string name="file_logger_description">Sla Notificatie Service logs op naar het externe geheugen. Dit is opslag permissies nodig.</string>
+    <string name="file_logger_description">Sla Notificatie Service logs op naar het externe geheugen. Dit vereist opslag permissie.</string>
     <string name="file_logger_needs_permission">Geen toegang tot externe opslag. Logs kunnen niet opgeslagen worden.</string>
     
     
@@ -750,7 +753,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     
     <string name="not_valid_title">Niet geldig</string>
-    <string name="not_valid_message">Deze versie van Folio is niet van de Play Store en zal niet werken.</string>
+    <string name="not_valid_message">Deze versie van Folio komt niet uit de Play Store en zal niet werken.</string>
     <string name="get_from_play">Google Play</string>
     
     <string name="people_you">Mensen die je misschien kent</string>
@@ -758,7 +761,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     
     <string name="download_manager_disabled">DownloadManager is uitgeschakeld. Schakel het alstublieft in.</string>
     <string name="cannot_access_storage">Geen toegang tot externe opslag</string>
-    <string name="file_cannot_be_saved">Een bestand kan niet opgeslagen worden</string>
+    <string name="file_cannot_be_saved">Een bestand kan niet worden opgeslagen</string>
     <string name="camera_exception">Er is een probleem met de camara</string>
     
     <!-- Folio Favorites -->
@@ -775,4 +778,3 @@ Copyright notice must remain here if you're using any part of this code.-->
     
           
 </resources>
-
