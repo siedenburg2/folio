@@ -31,7 +31,7 @@ Copyright notice must remain here if you're using any part of this code.-->
     <string name="update_photo">Add Photos</string>
     <string name="update_share">Share Now</string>
     
-    <string name="license_success">Themes activiated</string>
+    <string name="license_success">Themes activated</string>
     <string name="license_failed">Themes disabled</string>
     
     <string name="show_fab">Display a FAB</string>
